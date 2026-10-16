@@ -1,0 +1,16 @@
+{
+  "format": "dlh-realm-panorama-v1",
+  "path": "realm-snow-wide-d2b2133213b5514dd04daca58fb286bfc149331992ba0add7ccf2a10cc7ed246.webp",
+  "file": "release-raster/realm-calendar-ui__assets__snow-meditation-wide-v1.webp",
+  "width": 1774,
+  "height": 887,
+  "source_bytes": 2821663,
+  "source_sha256": "9df70d072dd84389bf860a4d96f612f4405b41b36b3c1007ff46b1dff5559bae",
+  "bytes": 446258,
+  "sha256": "d2b2133213b5514dd04daca58fb286bfc149331992ba0add7ccf2a10cc7ed246",
+  "encoder": "webp-q92-psnr36-v1",
+  "quality": 92,
+  "psnr_db": 40.6,
+  "generation_mode": "built-in image_gen",
+  "source_original": "realm-calendar-ui/assets/snow-meditation.png"
+}

@@ -1,0 +1,23 @@
+{
+  "format": "dlh-hosted-calligraphy-font-v1",
+  "font_family": "InkTitle",
+  "original_font_family": "Ma Shan Zheng",
+  "scope": "insight recording custom titles only; ordinary UI remains on system fonts",
+  "fallback": "KaiTi, STKaiti, serif",
+  "items": [
+    {
+      "name": "calligraphy-font",
+      "path": "ink-titles-fa5610b3c06ea95b72141138616e820d434ef6b2b35bbe94b933a5784c6e3d58.woff2",
+      "mime": "font/woff2",
+      "bytes": 1722448,
+      "sha256": "fa5610b3c06ea95b72141138616e820d434ef6b2b35bbe94b933a5784c6e3d58"
+    },
+    {
+      "name": "font-license",
+      "path": "ink-titles-OFL-d7bdb1cee215b689e23c2f95672a6084c790542170648267a55114103d756a08.txt",
+      "mime": "text/plain",
+      "bytes": 4397,
+      "sha256": "d7bdb1cee215b689e23c2f95672a6084c790542170648267a55114103d756a08"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "format": "dlh-hosted-media-v1",
+  "source_version": "3.89",
+  "source_card_sha256": "420c5abcffea17fa04d072a82e99096084883938595187f016e2743ceae85c75",
+  "source_widget_sha256": "955df0404f720e8ad9805e2d587724aba2513c915a1170b8e0cce5b9a31826cb",
+  "items": [
+    {
+      "name": "recording",
+      "path": "recording-b83a74ffa6e4b1b013a217ef68ddf06cc4d9caa4877a79a40c3858bfb83150b4.webm",
+      "source_mime": "video/webm",
+      "mime": "video/webm",
+      "bytes": 1342005,
+      "sha256": "b83a74ffa6e4b1b013a217ef68ddf06cc4d9caa4877a79a40c3858bfb83150b4",
+      "occurrences": 1,
+      "data_url_bytes": 1789363
+    },
+    {
+      "name": "glyphs",
+      "path": "glyphs-6a372ff5f3b65ee5f539c93eeba8dbae474a5eaa1b63f12c9c141eb0c009f9ae.bin",
+      "source_mime": "application/gzip",
+      "mime": "application/octet-stream",
+      "bytes": 13013,
+      "sha256": "6a372ff5f3b65ee5f539c93eeba8dbae474a5eaa1b63f12c9c141eb0c009f9ae",
+      "occurrences": 1,
+      "data_url_bytes": 17381
+    },
+    {
+      "name": "timing",
+      "path": "timing-8d59ffa6531f9b977504d16566065ce1e2acd3c1fc8e4440407c97595488f16e.bin",
+      "source_mime": "application/gzip",
+      "mime": "application/octet-stream",
+      "bytes": 155736,
+      "sha256": "8d59ffa6531f9b977504d16566065ce1e2acd3c1fc8e4440407c97595488f16e",
+      "occurrences": 1,
+      "data_url_bytes": 207677
+    }
+  ]
+}

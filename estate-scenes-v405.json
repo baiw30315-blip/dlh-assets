@@ -1,0 +1,156 @@
+{
+  "version": "4.05",
+  "kind": "estate and companion interface scenery",
+  "assets": [
+    {
+      "key": "companions",
+      "file": "companions-c75d86602bae6a60.webp",
+      "sha256": "c75d86602bae6a6053348d02df8b0f69085323f75334288410ce946af9168f06",
+      "bytes": 178700,
+      "size": [
+        1600,
+        900
+      ]
+    },
+    {
+      "key": "estate",
+      "file": "estate-3d59939621f66333.webp",
+      "sha256": "3d59939621f6633390d9408420cd7052f37477b4845e2e474778264da7bf18ef",
+      "bytes": 312212,
+      "size": [
+        1600,
+        800
+      ]
+    },
+    {
+      "key": "forge",
+      "file": "forge-39e5c8d90376a774.webp",
+      "sha256": "39e5c8d90376a774dce7f056caadfbdd25e0a7e51d2498a544182c7ec59263f5",
+      "bytes": 277786,
+      "size": [
+        1600,
+        900
+      ]
+    },
+    {
+      "key": "alchemy",
+      "file": "alchemy-89d8aaeb094fa931.webp",
+      "sha256": "89d8aaeb094fa931971d62276416265485aed99f7d3ff7804dd917674dc79fe6",
+      "bytes": 150076,
+      "size": [
+        1600,
+        800
+      ]
+    },
+    {
+      "key": "scroll",
+      "file": "scroll-cabc8c316c0ba9ce.webp",
+      "sha256": "cabc8c316c0ba9cecd1d666e891229b534e5cbfe3029da4c85365b2ddc202c14",
+      "bytes": 27518,
+      "size": [
+        1600,
+        533
+      ]
+    },
+    {
+      "key": "residence",
+      "file": "residence-1665eea3d312b292.webp",
+      "sha256": "1665eea3d312b2929afafb530191fad0c6f4a6f14f5201adbed90298ca894a59",
+      "bytes": 150134,
+      "size": [
+        960,
+        640
+      ]
+    },
+    {
+      "key": "shop",
+      "file": "shop-6f7516544bb0541e.webp",
+      "sha256": "6f7516544bb0541ead075a7989303dc5494ce5a77971a7d301fad96085653e37",
+      "bytes": 130994,
+      "size": [
+        960,
+        640
+      ]
+    },
+    {
+      "key": "garden",
+      "file": "garden-f7360370ea3047fc.webp",
+      "sha256": "f7360370ea3047fc832fba74098bec25cea3fe801cf8bdc129a3d3639b32e074",
+      "bytes": 145136,
+      "size": [
+        960,
+        480
+      ]
+    },
+    {
+      "key": "detail_shop",
+      "file": "detail_shop-39dce7ff47001f2a.webp",
+      "sha256": "39dce7ff47001f2a5b67df1791da6240d4ccf0bc584cecad3b72648f75e01e0f",
+      "bytes": 292930,
+      "size": [
+        1599,
+        900
+      ]
+    },
+    {
+      "key": "detail_residence",
+      "file": "detail_residence-c18f03e7757fa7b9.webp",
+      "sha256": "c18f03e7757fa7b9681f4ae8f41cc65add084ac5eb6da284a5010ce97f2ca6d4",
+      "bytes": 241888,
+      "size": [
+        1599,
+        900
+      ]
+    },
+    {
+      "key": "detail_garden",
+      "file": "detail_garden-c2e02b30e954aefa.webp",
+      "sha256": "c2e02b30e954aefa594fe95d6cbf6fa8cc516cd9dac04ba76ef544dda636c035",
+      "bytes": 217260,
+      "size": [
+        1599,
+        900
+      ]
+    },
+    {
+      "key": "prop_forge",
+      "file": "prop_forge-cd8af1512e1e1dfa.webp",
+      "sha256": "cd8af1512e1e1dfa9fb7c2e3fb4458b453d767a904e0b8d56b4867fc945994bb",
+      "bytes": 9980,
+      "size": [
+        360,
+        218
+      ]
+    },
+    {
+      "key": "prop_alchemy",
+      "file": "prop_alchemy-0047db536dd1e023.webp",
+      "sha256": "0047db536dd1e023893696824b1bd47b99b807e3117d14e56d0dc9897a3b0383",
+      "bytes": 11924,
+      "size": [
+        360,
+        218
+      ]
+    },
+    {
+      "key": "prop_reforge",
+      "file": "prop_reforge-68eb25fb53a8405d.webp",
+      "sha256": "68eb25fb53a8405d56eb10bbf033f5904a904630541d74b97b5a94135ca13a57",
+      "bytes": 11768,
+      "size": [
+        360,
+        218
+      ]
+    },
+    {
+      "key": "prop_tree",
+      "file": "prop_tree-63d7e46dbbedabfe.webp",
+      "sha256": "63d7e46dbbedabfee372896e9ec37090e66c9239f9d5431509f0e4c666061b55",
+      "bytes": 29038,
+      "size": [
+        360,
+        240
+      ]
+    }
+  ]
+}

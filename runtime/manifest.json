@@ -1,48 +1,48 @@
 {
   "format": "dlh-runtime-v1",
-  "version": "4.13-runtime.6",
-  "sequence": 6,
+  "version": "4.13-runtime.7",
+  "sequence": 7,
   "loaderApi": 1,
   "cardContract": "rpg413-02c6572f439a0cfd",
   "saveContract": "rpg413-v1",
   "requiresCardUpdate": false,
-  "notes": "修复已愿意同游却因缺战斗档案无法入队：明确同意后可先同行，默认不上阵；补档请求只准备草稿，真实配置登记后再单独上阵。不猜武学、不自动治愈、不放宽邀约和死亡限制。线索页用中文名或原文摘要显示，不露出内部键。保留中性材料登记，兼容runtime.3及runtime.5配套卡。",
+  "notes": "修复武学生成字段约定：新请求省略passives，已知纯分类tags安全归整并记录；外功按机制族提供准确字段，错误标明机制与具体缺失／多余字段，两次返回分开显示。保留数值预算、存档和既有功能，兼容runtime.3／.5／.6配套卡。",
   "files": [
     {
       "id": "schema",
-      "path": "releases/4.13-runtime.6/scripts/schema.js",
-      "bytes": 1101582,
-      "sha256": "f6ed2a88cdcad9bfdd10c685a96a9cbc4622c0a061446e2ba003bdc20b473270"
+      "path": "releases/4.13-runtime.7/scripts/schema.js",
+      "bytes": 1104183,
+      "sha256": "b7db9bf6db1fa2a49ff2c77f3bcbf891369de9179e614a61accd037607036649"
     },
     {
       "id": "mvu-output",
-      "path": "releases/4.13-runtime.6/scripts/mvu-output.js",
+      "path": "releases/4.13-runtime.7/scripts/mvu-output.js",
       "bytes": 4385,
       "sha256": "ea54ad487654439e06276549509834b24fa97edcffa413c438b6754a0043067f"
     },
     {
       "id": "snapshot-owner",
-      "path": "releases/4.13-runtime.6/scripts/snapshot-owner.js",
+      "path": "releases/4.13-runtime.7/scripts/snapshot-owner.js",
       "bytes": 2890,
       "sha256": "43665a729d8aa6f33297ef12daff61e2d2b4eea5425680a2f1e8e0485fcc71fc"
     },
     {
       "id": "npc-growth",
-      "path": "releases/4.13-runtime.6/scripts/npc-growth.js",
+      "path": "releases/4.13-runtime.7/scripts/npc-growth.js",
       "bytes": 5768,
       "sha256": "839fc4cbbeb0d886d28d45392d053b32f376e7fa1b9a88f69bce262a9036e1ab"
     },
     {
       "id": "prompt-budget",
-      "path": "releases/4.13-runtime.6/scripts/prompt-budget.js",
+      "path": "releases/4.13-runtime.7/scripts/prompt-budget.js",
       "bytes": 8245,
       "sha256": "7ec6f40bc55755113eff88db0efdac736c71cb6ce0796bf938d61f59763d4cb2"
     },
     {
       "id": "hud",
-      "path": "releases/4.13-runtime.6/scripts/hud.js",
-      "bytes": 5031932,
-      "sha256": "37d6cfc26eae9515d73c0a00390a59f48bd5938f0e7c5fe6b436fc23d6207837"
+      "path": "releases/4.13-runtime.7/scripts/hud.js",
+      "bytes": 5036177,
+      "sha256": "88f5c6c2cff26e8c4de0d72c2426df2a115b4228d6c4ba518255d766fecd6407"
     }
   ]
 }

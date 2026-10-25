@@ -1,0 +1,48 @@
+{
+  "format": "dlh-runtime-v1",
+  "version": "4.13-runtime.1",
+  "sequence": 1,
+  "loaderApi": 1,
+  "cardContract": "rpg413-686d78bf12f8f220",
+  "saveContract": "rpg413-v1",
+  "requiresCardUpdate": false,
+  "notes": "4.13 首版整包更新：六份配套运行脚本统一校验、缓存与回退，保持当前玩法与世界书。",
+  "files": [
+    {
+      "id": "schema",
+      "path": "releases/4.13-runtime.1/scripts/schema.js",
+      "bytes": 1093994,
+      "sha256": "2f8b398f5f4c69a65e5622f3a996332ab88d87587dcd811b708f14dac0de818d"
+    },
+    {
+      "id": "mvu-output",
+      "path": "releases/4.13-runtime.1/scripts/mvu-output.js",
+      "bytes": 4385,
+      "sha256": "ea54ad487654439e06276549509834b24fa97edcffa413c438b6754a0043067f"
+    },
+    {
+      "id": "snapshot-owner",
+      "path": "releases/4.13-runtime.1/scripts/snapshot-owner.js",
+      "bytes": 2890,
+      "sha256": "43665a729d8aa6f33297ef12daff61e2d2b4eea5425680a2f1e8e0485fcc71fc"
+    },
+    {
+      "id": "npc-growth",
+      "path": "releases/4.13-runtime.1/scripts/npc-growth.js",
+      "bytes": 5768,
+      "sha256": "839fc4cbbeb0d886d28d45392d053b32f376e7fa1b9a88f69bce262a9036e1ab"
+    },
+    {
+      "id": "prompt-budget",
+      "path": "releases/4.13-runtime.1/scripts/prompt-budget.js",
+      "bytes": 8245,
+      "sha256": "7ec6f40bc55755113eff88db0efdac736c71cb6ce0796bf938d61f59763d4cb2"
+    },
+    {
+      "id": "hud",
+      "path": "releases/4.13-runtime.1/scripts/hud.js",
+      "bytes": 4986183,
+      "sha256": "a46a583c890c23735d5c0bd9b3213f0855acb6c7a01408f9faadbc5def5095d3"
+    }
+  ]
+}

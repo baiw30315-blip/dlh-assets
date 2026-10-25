@@ -1,48 +1,48 @@
 {
   "format": "dlh-runtime-v1",
-  "version": "4.13-runtime.7",
-  "sequence": 7,
+  "version": "4.13-runtime.8",
+  "sequence": 8,
   "loaderApi": 1,
   "cardContract": "rpg413-02c6572f439a0cfd",
   "saveContract": "rpg413-v1",
   "requiresCardUpdate": false,
-  "notes": "修复武学生成字段约定：新请求省略passives，已知纯分类tags安全归整并记录；外功按机制族提供准确字段，错误标明机制与具体缺失／多余字段，两次返回分开显示。保留数值预算、存档和既有功能，兼容runtime.3／.5／.6配套卡。",
+  "notes": "新增更新提醒：启动后静默检查版本，设置入口标红色“新”，下载完成显示“待启用”，启用后消失；离线不影响游玩，不自动下载或切换版本。保留此前生成字段修复，兼容runtime.3及之后配套卡。",
   "files": [
     {
       "id": "schema",
-      "path": "releases/4.13-runtime.7/scripts/schema.js",
+      "path": "releases/4.13-runtime.8/scripts/schema.js",
       "bytes": 1104183,
       "sha256": "b7db9bf6db1fa2a49ff2c77f3bcbf891369de9179e614a61accd037607036649"
     },
     {
       "id": "mvu-output",
-      "path": "releases/4.13-runtime.7/scripts/mvu-output.js",
+      "path": "releases/4.13-runtime.8/scripts/mvu-output.js",
       "bytes": 4385,
       "sha256": "ea54ad487654439e06276549509834b24fa97edcffa413c438b6754a0043067f"
     },
     {
       "id": "snapshot-owner",
-      "path": "releases/4.13-runtime.7/scripts/snapshot-owner.js",
+      "path": "releases/4.13-runtime.8/scripts/snapshot-owner.js",
       "bytes": 2890,
       "sha256": "43665a729d8aa6f33297ef12daff61e2d2b4eea5425680a2f1e8e0485fcc71fc"
     },
     {
       "id": "npc-growth",
-      "path": "releases/4.13-runtime.7/scripts/npc-growth.js",
+      "path": "releases/4.13-runtime.8/scripts/npc-growth.js",
       "bytes": 5768,
       "sha256": "839fc4cbbeb0d886d28d45392d053b32f376e7fa1b9a88f69bce262a9036e1ab"
     },
     {
       "id": "prompt-budget",
-      "path": "releases/4.13-runtime.7/scripts/prompt-budget.js",
+      "path": "releases/4.13-runtime.8/scripts/prompt-budget.js",
       "bytes": 8245,
       "sha256": "7ec6f40bc55755113eff88db0efdac736c71cb6ce0796bf938d61f59763d4cb2"
     },
     {
       "id": "hud",
-      "path": "releases/4.13-runtime.7/scripts/hud.js",
-      "bytes": 5036177,
-      "sha256": "88f5c6c2cff26e8c4de0d72c2426df2a115b4228d6c4ba518255d766fecd6407"
+      "path": "releases/4.13-runtime.8/scripts/hud.js",
+      "bytes": 5038976,
+      "sha256": "cc516bfad3e4026a972c565b2fd0312cc8c684f54ed63d4a4bcea3af97a800a7"
     }
   ]
 }

@@ -1,48 +1,48 @@
 {
   "format": "dlh-runtime-v1",
-  "version": "4.13-runtime.5",
-  "sequence": 5,
+  "version": "4.13-runtime.6",
+  "sequence": 6,
   "loaderApi": 1,
   "cardContract": "rpg413-02c6572f439a0cfd",
   "saveContract": "rpg413-v1",
   "requiresCardUpdate": false,
-  "notes": "整修旧器新增中性的待登记原料：用途默认留空，玩家明确选择金属主材或炉炭燃料，混合箱与工具不默认归为燃料。确认保留库存事实且不扣料，精锻仍按固定份额支付。兼容runtime.3配套卡，可从设置直接更新。",
+  "notes": "修复已愿意同游却因缺战斗档案无法入队：明确同意后可先同行，默认不上阵；补档请求只准备草稿，真实配置登记后再单独上阵。不猜武学、不自动治愈、不放宽邀约和死亡限制。线索页用中文名或原文摘要显示，不露出内部键。保留中性材料登记，兼容runtime.3及runtime.5配套卡。",
   "files": [
     {
       "id": "schema",
-      "path": "releases/4.13-runtime.5/scripts/schema.js",
-      "bytes": 1098783,
-      "sha256": "daa041cb226dac35d60fdb224f17aa0f69f8cad55d1c4f2bd1c9ecef603b5fbe"
+      "path": "releases/4.13-runtime.6/scripts/schema.js",
+      "bytes": 1101582,
+      "sha256": "f6ed2a88cdcad9bfdd10c685a96a9cbc4622c0a061446e2ba003bdc20b473270"
     },
     {
       "id": "mvu-output",
-      "path": "releases/4.13-runtime.5/scripts/mvu-output.js",
+      "path": "releases/4.13-runtime.6/scripts/mvu-output.js",
       "bytes": 4385,
       "sha256": "ea54ad487654439e06276549509834b24fa97edcffa413c438b6754a0043067f"
     },
     {
       "id": "snapshot-owner",
-      "path": "releases/4.13-runtime.5/scripts/snapshot-owner.js",
+      "path": "releases/4.13-runtime.6/scripts/snapshot-owner.js",
       "bytes": 2890,
       "sha256": "43665a729d8aa6f33297ef12daff61e2d2b4eea5425680a2f1e8e0485fcc71fc"
     },
     {
       "id": "npc-growth",
-      "path": "releases/4.13-runtime.5/scripts/npc-growth.js",
+      "path": "releases/4.13-runtime.6/scripts/npc-growth.js",
       "bytes": 5768,
       "sha256": "839fc4cbbeb0d886d28d45392d053b32f376e7fa1b9a88f69bce262a9036e1ab"
     },
     {
       "id": "prompt-budget",
-      "path": "releases/4.13-runtime.5/scripts/prompt-budget.js",
+      "path": "releases/4.13-runtime.6/scripts/prompt-budget.js",
       "bytes": 8245,
       "sha256": "7ec6f40bc55755113eff88db0efdac736c71cb6ce0796bf938d61f59763d4cb2"
     },
     {
       "id": "hud",
-      "path": "releases/4.13-runtime.5/scripts/hud.js",
-      "bytes": 5027012,
-      "sha256": "ae993d1f31a498d68ab5ea37a968ae32c414009f7845cd04ab675ee98127351f"
+      "path": "releases/4.13-runtime.6/scripts/hud.js",
+      "bytes": 5031932,
+      "sha256": "37d6cfc26eae9515d73c0a00390a59f48bd5938f0e7c5fe6b436fc23d6207837"
     }
   ]
 }

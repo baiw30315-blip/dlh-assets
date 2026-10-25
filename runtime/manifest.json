@@ -1,48 +1,48 @@
 {
   "format": "dlh-runtime-v1",
-  "version": "4.13-runtime.2",
-  "sequence": 2,
+  "version": "4.13-runtime.3",
+  "sequence": 3,
   "loaderApi": 1,
-  "cardContract": "rpg413-686d78bf12f8f220",
+  "cardContract": "rpg413-02c6572f439a0cfd",
   "saveContract": "rpg413-v1",
   "requiresCardUpdate": false,
-  "notes": "修复修行机缘容器：按唯一稳定标识归档，缺省为键值表；缺少修行方式仍明确报错，不猜奖励。世界书与奖励规则不变。",
+  "notes": "群芳谱迁入悬浮球，初始立绘成功查看后隐藏提示；精锻材料识别独立于配方。配套卡含旧前端移除及材料登记规则更新，旧版卡需重新导入本次远程更新版。",
   "files": [
     {
       "id": "schema",
-      "path": "releases/4.13-runtime.2/scripts/schema.js",
-      "bytes": 1095653,
-      "sha256": "d3c322af4b11050a8c45880262b1d9c510f042b32116a2523e7c51718594703c"
+      "path": "releases/4.13-runtime.3/scripts/schema.js",
+      "bytes": 1097008,
+      "sha256": "7ae084e96fda309b06f9f521eeffb5db02e388b45fbf204f79531e250be601e4"
     },
     {
       "id": "mvu-output",
-      "path": "releases/4.13-runtime.2/scripts/mvu-output.js",
+      "path": "releases/4.13-runtime.3/scripts/mvu-output.js",
       "bytes": 4385,
       "sha256": "ea54ad487654439e06276549509834b24fa97edcffa413c438b6754a0043067f"
     },
     {
       "id": "snapshot-owner",
-      "path": "releases/4.13-runtime.2/scripts/snapshot-owner.js",
+      "path": "releases/4.13-runtime.3/scripts/snapshot-owner.js",
       "bytes": 2890,
       "sha256": "43665a729d8aa6f33297ef12daff61e2d2b4eea5425680a2f1e8e0485fcc71fc"
     },
     {
       "id": "npc-growth",
-      "path": "releases/4.13-runtime.2/scripts/npc-growth.js",
+      "path": "releases/4.13-runtime.3/scripts/npc-growth.js",
       "bytes": 5768,
       "sha256": "839fc4cbbeb0d886d28d45392d053b32f376e7fa1b9a88f69bce262a9036e1ab"
     },
     {
       "id": "prompt-budget",
-      "path": "releases/4.13-runtime.2/scripts/prompt-budget.js",
+      "path": "releases/4.13-runtime.3/scripts/prompt-budget.js",
       "bytes": 8245,
       "sha256": "7ec6f40bc55755113eff88db0efdac736c71cb6ce0796bf938d61f59763d4cb2"
     },
     {
       "id": "hud",
-      "path": "releases/4.13-runtime.2/scripts/hud.js",
-      "bytes": 4986183,
-      "sha256": "a46a583c890c23735d5c0bd9b3213f0855acb6c7a01408f9faadbc5def5095d3"
+      "path": "releases/4.13-runtime.3/scripts/hud.js",
+      "bytes": 5023481,
+      "sha256": "204414a4065c54c6958dadea8030fcc070d977e22bc1bb486414a7ce8921e408"
     }
   ]
 }

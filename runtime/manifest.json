@@ -1,48 +1,48 @@
 {
   "format": "dlh-runtime-v1",
-  "version": "4.13-runtime.10",
-  "sequence": 10,
+  "version": "4.13-runtime.12",
+  "sequence": 12,
   "loaderApi": 1,
-  "cardContract": "rpg413-dfcfb635da92feb7",
+  "cardContract": "rpg413-a181304d3471ad7f",
   "saveContract": "rpg413-v1",
   "requiresCardUpdate": false,
-  "notes": "合并外攻可配会心/会意，两端保留；刷新队友真意详情并读回确认；线索文字对象、死亡和物品类别有限归一；日历支持初末刻与时辰刻数校准；奇门失败列出真实机制、标记及缺失施加招式；变量失败在诊断区显示未保存路径。世界书已补时间与机缘条件必填协议，旧配套卡需要导入本次新卡及随卡世界书；预设未改。",
+  "notes": "新增真实修炼预览及指定熟练阶段停练，只按实际用时结算；已完成日程独立折叠并可归档；修复主角倒地后的群战收尾和旧存档，仍在场的队友继续作战。修正武学提示字典将文字误转为空对象，恢复旧档已知空诊断，不再连带阻塞时间、地点和物品更新。初见反应对应戒备-10、中立0、认可5、赏识10；已有关系按实际历史登记，不自动重设。重大事件独立增加3至5或6至10，不受普通日额度限制，保留事实去重、关系门槛与实际反应。群像详情展示最近回执及零收益原因，并支持一次初识校准、保留后续变化。相较本地runtime.11配套卡，世界书与预设未改，可直接更新脚本；公开runtime.10及更早版本需导入本次配套卡及随卡世界书。保留此前变量容器、悟性丹、生成、同行、日历与战斗修复。",
   "files": [
     {
       "id": "schema",
-      "path": "releases/4.13-runtime.10/scripts/schema.js",
-      "bytes": 1118214,
-      "sha256": "d16820447c86eb87ed610b9344884e95592438cbb3620ebb626bdb1f6729d4ee"
+      "path": "releases/4.13-runtime.12/scripts/schema.js",
+      "bytes": 1137005,
+      "sha256": "42a34bf28d41b58fa6de155e6f8f0e6de8f9a2283cb273c7f323734025037fc8"
     },
     {
       "id": "mvu-output",
-      "path": "releases/4.13-runtime.10/scripts/mvu-output.js",
+      "path": "releases/4.13-runtime.12/scripts/mvu-output.js",
       "bytes": 4385,
       "sha256": "ea54ad487654439e06276549509834b24fa97edcffa413c438b6754a0043067f"
     },
     {
       "id": "snapshot-owner",
-      "path": "releases/4.13-runtime.10/scripts/snapshot-owner.js",
+      "path": "releases/4.13-runtime.12/scripts/snapshot-owner.js",
       "bytes": 2890,
       "sha256": "43665a729d8aa6f33297ef12daff61e2d2b4eea5425680a2f1e8e0485fcc71fc"
     },
     {
       "id": "npc-growth",
-      "path": "releases/4.13-runtime.10/scripts/npc-growth.js",
+      "path": "releases/4.13-runtime.12/scripts/npc-growth.js",
       "bytes": 5768,
       "sha256": "839fc4cbbeb0d886d28d45392d053b32f376e7fa1b9a88f69bce262a9036e1ab"
     },
     {
       "id": "prompt-budget",
-      "path": "releases/4.13-runtime.10/scripts/prompt-budget.js",
+      "path": "releases/4.13-runtime.12/scripts/prompt-budget.js",
       "bytes": 8245,
       "sha256": "7ec6f40bc55755113eff88db0efdac736c71cb6ce0796bf938d61f59763d4cb2"
     },
     {
       "id": "hud",
-      "path": "releases/4.13-runtime.10/scripts/hud.js",
-      "bytes": 5055379,
-      "sha256": "76f3582e0eaa461b14f4d4d55fabb2023932452417f355a3d5dc29ee7a45b401"
+      "path": "releases/4.13-runtime.12/scripts/hud.js",
+      "bytes": 5080584,
+      "sha256": "c5f6071927ce1e04e3ac8c14201784eb75b38dce6265df4b051257272e112263"
     }
   ]
 }

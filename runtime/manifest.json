@@ -1,48 +1,48 @@
 {
   "format": "dlh-runtime-v1",
-  "version": "4.13-runtime.8",
-  "sequence": 8,
+  "version": "4.13-runtime.9",
+  "sequence": 9,
   "loaderApi": 1,
-  "cardContract": "rpg413-02c6572f439a0cfd",
+  "cardContract": "rpg413-0a74c9c991594313",
   "saveContract": "rpg413-v1",
   "requiresCardUpdate": false,
-  "notes": "新增更新提醒：启动后静默检查版本，设置入口标红色“新”，下载完成显示“待启用”，启用后消失；离线不影响游玩，不自动下载或切换版本。保留此前生成字段修复，兼容runtime.3及之后配套卡。",
+  "notes": "修复开局百艺等级被旧基准覆盖，并接入剧情明确授予的百艺阶段与积累记录，按事实去重和撤回；新增永久悟性药力并纠正明确悟性丹的体属性模板，沿用共用永久药力额度。世界书已同步百艺输入规则，本轮须使用新的4.13配套远程卡；旧配套卡请更新角色卡。外功生成返回后仅交换冲突的攻击端，不限定生成配对，其他词条与数值保留。保留更新提醒。",
   "files": [
     {
       "id": "schema",
-      "path": "releases/4.13-runtime.8/scripts/schema.js",
-      "bytes": 1104183,
-      "sha256": "b7db9bf6db1fa2a49ff2c77f3bcbf891369de9179e614a61accd037607036649"
+      "path": "releases/4.13-runtime.9/scripts/schema.js",
+      "bytes": 1114101,
+      "sha256": "74403cd35fb494088fcd3cea08373a3424bae940101076e927c4fd38805884b6"
     },
     {
       "id": "mvu-output",
-      "path": "releases/4.13-runtime.8/scripts/mvu-output.js",
+      "path": "releases/4.13-runtime.9/scripts/mvu-output.js",
       "bytes": 4385,
       "sha256": "ea54ad487654439e06276549509834b24fa97edcffa413c438b6754a0043067f"
     },
     {
       "id": "snapshot-owner",
-      "path": "releases/4.13-runtime.8/scripts/snapshot-owner.js",
+      "path": "releases/4.13-runtime.9/scripts/snapshot-owner.js",
       "bytes": 2890,
       "sha256": "43665a729d8aa6f33297ef12daff61e2d2b4eea5425680a2f1e8e0485fcc71fc"
     },
     {
       "id": "npc-growth",
-      "path": "releases/4.13-runtime.8/scripts/npc-growth.js",
+      "path": "releases/4.13-runtime.9/scripts/npc-growth.js",
       "bytes": 5768,
       "sha256": "839fc4cbbeb0d886d28d45392d053b32f376e7fa1b9a88f69bce262a9036e1ab"
     },
     {
       "id": "prompt-budget",
-      "path": "releases/4.13-runtime.8/scripts/prompt-budget.js",
+      "path": "releases/4.13-runtime.9/scripts/prompt-budget.js",
       "bytes": 8245,
       "sha256": "7ec6f40bc55755113eff88db0efdac736c71cb6ce0796bf938d61f59763d4cb2"
     },
     {
       "id": "hud",
-      "path": "releases/4.13-runtime.8/scripts/hud.js",
-      "bytes": 5038976,
-      "sha256": "cc516bfad3e4026a972c565b2fd0312cc8c684f54ed63d4a4bcea3af97a800a7"
+      "path": "releases/4.13-runtime.9/scripts/hud.js",
+      "bytes": 5049365,
+      "sha256": "da7f294b70f1338c2eaf6f21d9d146dadc722cc86de0f8444e027796875409a7"
     }
   ]
 }

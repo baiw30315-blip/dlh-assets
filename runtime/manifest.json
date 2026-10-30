@@ -1,48 +1,48 @@
 {
   "format": "dlh-runtime-v1",
-  "version": "4.2-runtime.23",
-  "sequence": 23,
+  "version": "4.2-runtime.25",
+  "sequence": 25,
   "loaderApi": 1,
   "cardContract": "rpg413-3060451073324d57",
   "saveContract": "rpg413-v1",
   "requiresCardUpdate": false,
-  "notes": "4.2 脚本更新：改善战斗 AI 对准备、联动与兑现的选择；排除无法兑现的后招收益，保留紧急击杀与救援。新增估计受次数和时间限制。世界书与存档契约不变，已安装配套 4.2 远程版可在设置中直接更新，无需重导卡。",
+  "notes": "4.2 脚本修复：支持当前内功、横练、轻功数值分配记录；统一NPC武学表输入；接收结构化伤情；修复开局好感字段及唯一姓名同行邀约关联；七窍全通仅检查四境入五境，不重复阻挡五境内部逐关突破；好感待办显示具体错误并折叠详情，不猜测补分。世界书不变，配套4.2远程版可直接更新脚本。",
   "files": [
     {
       "id": "schema",
-      "path": "releases/4.2-runtime.23/scripts/schema.js",
-      "bytes": 1372369,
-      "sha256": "e15983892fe8385a6f5506f7cb1f9cfcb3e314764fb4d30958393d3ec86a456c"
+      "path": "releases/4.2-runtime.25/scripts/schema.js",
+      "bytes": 1376402,
+      "sha256": "03a0ff9c061e38e07021ff531f943e7a7c9cbdf490ca6bc690603b1fbb53fdb3"
     },
     {
       "id": "mvu-output",
-      "path": "releases/4.2-runtime.23/scripts/mvu-output.js",
+      "path": "releases/4.2-runtime.25/scripts/mvu-output.js",
       "bytes": 4385,
       "sha256": "ea54ad487654439e06276549509834b24fa97edcffa413c438b6754a0043067f"
     },
     {
       "id": "snapshot-owner",
-      "path": "releases/4.2-runtime.23/scripts/snapshot-owner.js",
+      "path": "releases/4.2-runtime.25/scripts/snapshot-owner.js",
       "bytes": 2890,
       "sha256": "43665a729d8aa6f33297ef12daff61e2d2b4eea5425680a2f1e8e0485fcc71fc"
     },
     {
       "id": "npc-growth",
-      "path": "releases/4.2-runtime.23/scripts/npc-growth.js",
+      "path": "releases/4.2-runtime.25/scripts/npc-growth.js",
       "bytes": 5768,
       "sha256": "839fc4cbbeb0d886d28d45392d053b32f376e7fa1b9a88f69bce262a9036e1ab"
     },
     {
       "id": "prompt-budget",
-      "path": "releases/4.2-runtime.23/scripts/prompt-budget.js",
+      "path": "releases/4.2-runtime.25/scripts/prompt-budget.js",
       "bytes": 8245,
       "sha256": "7ec6f40bc55755113eff88db0efdac736c71cb6ce0796bf938d61f59763d4cb2"
     },
     {
       "id": "hud",
-      "path": "releases/4.2-runtime.23/scripts/hud.js",
-      "bytes": 5558266,
-      "sha256": "dda34bbc24e33ca7cd087af8b98dbe5d9a0559722c918712d1f015639d031756"
+      "path": "releases/4.2-runtime.25/scripts/hud.js",
+      "bytes": 5560709,
+      "sha256": "8f4ec5706f50d85788509f6f98191d9174d6f6db58a155b48623d7b6a457e73f"
     }
   ]
 }

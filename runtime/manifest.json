@@ -1,48 +1,48 @@
 {
   "format": "dlh-runtime-v1",
-  "version": "4.2-runtime.22",
-  "sequence": 22,
+  "version": "4.2-runtime.23",
+  "sequence": 23,
   "loaderApi": 1,
   "cardContract": "rpg413-3060451073324d57",
   "saveContract": "rpg413-v1",
   "requiresCardUpdate": false,
-  "notes": "4.2：整合外功、内功、奇门、横练与轻功生成改造；按实际收益分配而非填满预算；完善门内联动、皮毛入口及生成字段契约；区分造成伤害和防护、即时与持续收益，聚合诊断；修复灵药登记及服用入口。世界书已变化，旧卡须重新导入本版并绑定随卡世界书。",
+  "notes": "4.2 脚本更新：改善战斗 AI 对准备、联动与兑现的选择；排除无法兑现的后招收益，保留紧急击杀与救援。新增估计受次数和时间限制。世界书与存档契约不变，已安装配套 4.2 远程版可在设置中直接更新，无需重导卡。",
   "files": [
     {
       "id": "schema",
-      "path": "releases/4.2-runtime.22/scripts/schema.js",
+      "path": "releases/4.2-runtime.23/scripts/schema.js",
       "bytes": 1372369,
       "sha256": "e15983892fe8385a6f5506f7cb1f9cfcb3e314764fb4d30958393d3ec86a456c"
     },
     {
       "id": "mvu-output",
-      "path": "releases/4.2-runtime.22/scripts/mvu-output.js",
+      "path": "releases/4.2-runtime.23/scripts/mvu-output.js",
       "bytes": 4385,
       "sha256": "ea54ad487654439e06276549509834b24fa97edcffa413c438b6754a0043067f"
     },
     {
       "id": "snapshot-owner",
-      "path": "releases/4.2-runtime.22/scripts/snapshot-owner.js",
+      "path": "releases/4.2-runtime.23/scripts/snapshot-owner.js",
       "bytes": 2890,
       "sha256": "43665a729d8aa6f33297ef12daff61e2d2b4eea5425680a2f1e8e0485fcc71fc"
     },
     {
       "id": "npc-growth",
-      "path": "releases/4.2-runtime.22/scripts/npc-growth.js",
+      "path": "releases/4.2-runtime.23/scripts/npc-growth.js",
       "bytes": 5768,
       "sha256": "839fc4cbbeb0d886d28d45392d053b32f376e7fa1b9a88f69bce262a9036e1ab"
     },
     {
       "id": "prompt-budget",
-      "path": "releases/4.2-runtime.22/scripts/prompt-budget.js",
+      "path": "releases/4.2-runtime.23/scripts/prompt-budget.js",
       "bytes": 8245,
       "sha256": "7ec6f40bc55755113eff88db0efdac736c71cb6ce0796bf938d61f59763d4cb2"
     },
     {
       "id": "hud",
-      "path": "releases/4.2-runtime.22/scripts/hud.js",
-      "bytes": 5551173,
-      "sha256": "a80a838f2400538d21140ef6b3599df3cc60505591bddb3b3641a041aa769da5"
+      "path": "releases/4.2-runtime.23/scripts/hud.js",
+      "bytes": 5558266,
+      "sha256": "dda34bbc24e33ca7cd087af8b98dbe5d9a0559722c918712d1f015639d031756"
     }
   ]
 }

@@ -1,48 +1,48 @@
 {
   "format": "dlh-runtime-v1",
-  "version": "4.2-runtime.28",
-  "sequence": 28,
+  "version": "4.2-runtime.29",
+  "sequence": 29,
   "loaderApi": 1,
-  "cardContract": "rpg413-3060451073324d57",
+  "cardContract": "rpg413-31944700ccc55f98",
   "saveContract": "rpg413-v1",
   "requiresCardUpdate": false,
-  "notes": "4.2 脚本更新：固定追加内力/耐力可在声明范围内联合分配收益，修正重式成本重复计入。战前先复用、同源去重，支持的后端最多并行生成三门，保存串行；单门失败保留其他成果，重试仅补缺项，显示各门进度；切换分支或选择通用方案取消全部在途请求，旧酒馆通道保留单路。包含此前修复，世界书不变。",
+  "notes": "4.2 工坊与圆满修复：后续楼层补充同类原料数量不再被工坊保护恢复；自拟图纸按八个装备部位选择种类，材料用途入口移到工坊首屏。先天以下圆满只检查熟练积累与境界，先天仍需合格参悟。正文不再反复携带历史工单，未承接结果分批摘要，完整存档保留。战前逐门勾选、生成本门与暂停本门，卡住的请求不挡其他所选武学。含世界书更新，旧卡需重新导入本次配套角色卡；只更新脚本不能同步这次世界书规则。",
   "files": [
     {
       "id": "schema",
-      "path": "releases/4.2-runtime.28/scripts/schema.js",
-      "bytes": 1377116,
-      "sha256": "e22fc82e73b220b32ac1f8ea0933d97c20a82fa9cdb1f03cacbf8e4b10f8d37f"
+      "path": "releases/4.2-runtime.29/scripts/schema.js",
+      "bytes": 1377357,
+      "sha256": "deb98bf2c284b726ae6473b1d31cbab926d45fc7db678ec9c9541d13f4e98b25"
     },
     {
       "id": "mvu-output",
-      "path": "releases/4.2-runtime.28/scripts/mvu-output.js",
+      "path": "releases/4.2-runtime.29/scripts/mvu-output.js",
       "bytes": 4385,
       "sha256": "ea54ad487654439e06276549509834b24fa97edcffa413c438b6754a0043067f"
     },
     {
       "id": "snapshot-owner",
-      "path": "releases/4.2-runtime.28/scripts/snapshot-owner.js",
+      "path": "releases/4.2-runtime.29/scripts/snapshot-owner.js",
       "bytes": 2890,
       "sha256": "43665a729d8aa6f33297ef12daff61e2d2b4eea5425680a2f1e8e0485fcc71fc"
     },
     {
       "id": "npc-growth",
-      "path": "releases/4.2-runtime.28/scripts/npc-growth.js",
+      "path": "releases/4.2-runtime.29/scripts/npc-growth.js",
       "bytes": 5768,
       "sha256": "839fc4cbbeb0d886d28d45392d053b32f376e7fa1b9a88f69bce262a9036e1ab"
     },
     {
       "id": "prompt-budget",
-      "path": "releases/4.2-runtime.28/scripts/prompt-budget.js",
+      "path": "releases/4.2-runtime.29/scripts/prompt-budget.js",
       "bytes": 8245,
       "sha256": "7ec6f40bc55755113eff88db0efdac736c71cb6ce0796bf938d61f59763d4cb2"
     },
     {
       "id": "hud",
-      "path": "releases/4.2-runtime.28/scripts/hud.js",
-      "bytes": 5570505,
-      "sha256": "418ac9879664286ca56a8ffb09a83195becaca59c2d708bd6d31b55ab76641ff"
+      "path": "releases/4.2-runtime.29/scripts/hud.js",
+      "bytes": 5585222,
+      "sha256": "0c5ba2faa82f4744bacb71dc3db2fe176c0bd21d92f9113439b918a52ddb97f8"
     }
   ]
 }

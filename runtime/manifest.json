@@ -1,48 +1,48 @@
 {
   "format": "dlh-runtime-v1",
-  "version": "4.2-runtime.26",
-  "sequence": 26,
+  "version": "4.2-runtime.27",
+  "sequence": 27,
   "loaderApi": 1,
   "cardContract": "rpg413-3060451073324d57",
   "saveContract": "rpg413-v1",
   "requiresCardUpdate": false,
-  "notes": "4.2 脚本修复：布阵时缺少我方战斗态或调息表按无历史调息处理，避免读取调息报错；已有招式调息保留。包含此前脚本修复。世界书不变，配套4.2远程版可直接更新脚本。",
+  "notes": "4.2 脚本更新：开放有可执行机制的纯被动奇门，不强塞主动招式；实际触发记录奇门实践。外功等价单段写法本地归一，未声明分段的追加重式沿用已绑定常式骨架，明确冲突仍保留。有限搜索提前覆盖已声明的较长间隔，并列明最低候选逐项成本。包含此前布阵修复。世界书不变。",
   "files": [
     {
       "id": "schema",
-      "path": "releases/4.2-runtime.26/scripts/schema.js",
-      "bytes": 1376402,
-      "sha256": "03a0ff9c061e38e07021ff531f943e7a7c9cbdf490ca6bc690603b1fbb53fdb3"
+      "path": "releases/4.2-runtime.27/scripts/schema.js",
+      "bytes": 1377093,
+      "sha256": "35951325e5b1d64d89f4281e3b22a5577d4dc7edd9620ba0bcdc76fc83c97a0f"
     },
     {
       "id": "mvu-output",
-      "path": "releases/4.2-runtime.26/scripts/mvu-output.js",
+      "path": "releases/4.2-runtime.27/scripts/mvu-output.js",
       "bytes": 4385,
       "sha256": "ea54ad487654439e06276549509834b24fa97edcffa413c438b6754a0043067f"
     },
     {
       "id": "snapshot-owner",
-      "path": "releases/4.2-runtime.26/scripts/snapshot-owner.js",
+      "path": "releases/4.2-runtime.27/scripts/snapshot-owner.js",
       "bytes": 2890,
       "sha256": "43665a729d8aa6f33297ef12daff61e2d2b4eea5425680a2f1e8e0485fcc71fc"
     },
     {
       "id": "npc-growth",
-      "path": "releases/4.2-runtime.26/scripts/npc-growth.js",
+      "path": "releases/4.2-runtime.27/scripts/npc-growth.js",
       "bytes": 5768,
       "sha256": "839fc4cbbeb0d886d28d45392d053b32f376e7fa1b9a88f69bce262a9036e1ab"
     },
     {
       "id": "prompt-budget",
-      "path": "releases/4.2-runtime.26/scripts/prompt-budget.js",
+      "path": "releases/4.2-runtime.27/scripts/prompt-budget.js",
       "bytes": 8245,
       "sha256": "7ec6f40bc55755113eff88db0efdac736c71cb6ce0796bf938d61f59763d4cb2"
     },
     {
       "id": "hud",
-      "path": "releases/4.2-runtime.26/scripts/hud.js",
-      "bytes": 5560739,
-      "sha256": "6141f3275a94d45a8f193d8e3b854bad0d266548360159b221ce55d01cf23b96"
+      "path": "releases/4.2-runtime.27/scripts/hud.js",
+      "bytes": 5564921,
+      "sha256": "5978e425b593a8364d1f6406a561975aab581854c38e68f27226dd1204016b5c"
     }
   ]
 }

@@ -1,48 +1,48 @@
 {
   "format": "dlh-runtime-v1",
-  "version": "4.2-runtime.33",
-  "sequence": 33,
+  "version": "4.2-runtime.34",
+  "sequence": 34,
   "loaderApi": 1,
   "cardContract": "rpg413-c80074e9b2df796e",
   "saveContract": "rpg413-v1",
   "requiresCardUpdate": false,
-  "notes": "4.2 装备库存与星授生成修复：受制作、精锻或同行保护的装备在后续已提交楼层明确售出后不再恢复，实际装卸保留新位置，词条定义与回执去重继续保护；完整武学包仅漏协议标记且档案完整一致时可本地补齐，未知格式与非法机制仍拒收；星命照我星授接入当前外功简报组装及横练、轻功、奇门本地分配，两条通用加成与身份按实际来源登记，预览领受只校验、不重新分配，保留次数和跨聊天保护。配套 runtime.31 远程更新卡可直接更新脚本并重新加载；无世界书变更，不含新地图。",
+  "notes": "战斗结束与整体刷新性能优化：合并检查点序列化、复用战报与视图、去重未变化输入和所有权快照、避免备用轮询阻塞本地结算；复用日历预览、消除制造忙碌态重复预览，减少闭关停止搜索的重复复制。修复人物身体状态健康简写拒收及顶层掌握武学漏存，保留具体伤情、显式人物资料与冲突校验。无世界书变更，不含地图。",
   "files": [
     {
       "id": "schema",
-      "path": "releases/4.2-runtime.33/scripts/schema.js",
-      "bytes": 1384127,
-      "sha256": "5e29817c87638b7aabb0e05c95743de27dce98f508d7280ae34d04e5bd7bb40a"
+      "path": "releases/4.2-runtime.34/scripts/schema.js",
+      "bytes": 1387988,
+      "sha256": "4866b94e77f5c6394c2dd0937363ef0d4b24e927dbf49364831008139425fcef"
     },
     {
       "id": "mvu-output",
-      "path": "releases/4.2-runtime.33/scripts/mvu-output.js",
+      "path": "releases/4.2-runtime.34/scripts/mvu-output.js",
       "bytes": 4385,
       "sha256": "ea54ad487654439e06276549509834b24fa97edcffa413c438b6754a0043067f"
     },
     {
       "id": "snapshot-owner",
-      "path": "releases/4.2-runtime.33/scripts/snapshot-owner.js",
+      "path": "releases/4.2-runtime.34/scripts/snapshot-owner.js",
       "bytes": 2890,
       "sha256": "43665a729d8aa6f33297ef12daff61e2d2b4eea5425680a2f1e8e0485fcc71fc"
     },
     {
       "id": "npc-growth",
-      "path": "releases/4.2-runtime.33/scripts/npc-growth.js",
+      "path": "releases/4.2-runtime.34/scripts/npc-growth.js",
       "bytes": 5768,
       "sha256": "839fc4cbbeb0d886d28d45392d053b32f376e7fa1b9a88f69bce262a9036e1ab"
     },
     {
       "id": "prompt-budget",
-      "path": "releases/4.2-runtime.33/scripts/prompt-budget.js",
+      "path": "releases/4.2-runtime.34/scripts/prompt-budget.js",
       "bytes": 80428,
       "sha256": "67afe67b19893296ee27210a01de6f6db191edfb26febc19469108358ee25fb6"
     },
     {
       "id": "hud",
-      "path": "releases/4.2-runtime.33/scripts/hud.js",
-      "bytes": 5599860,
-      "sha256": "12ac68caf8cfc9f5c0bfc1885ab7a5a13dffab686ab56565447ba201cdc2c972"
+      "path": "releases/4.2-runtime.34/scripts/hud.js",
+      "bytes": 5608809,
+      "sha256": "46995d08ae4f418ce561102a0a81a1b7af6f4d8a41367877f38afde21dcef24a"
     }
   ]
 }

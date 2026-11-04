@@ -1,0 +1,64 @@
+{
+  "cardVersion": "4.2",
+  "runtime": "4.2-runtime.37",
+  "remoteManifest": "https://raw.githubusercontent.com/baiw30315-blip/dlh-assets/main/runtime-plot/manifest.json",
+  "saveContract": "rpg413-portable-history-v1",
+  "pairedWorldbookInCard": true,
+  "files": [
+    {
+      "path": "cards/4.2-plot-20261104/DLH-RPG-v4.2-plot-runtime37.png",
+      "bytes": 11946895,
+      "sha256": "993c7e0f99a9a467df48cfc7f75174463e1f7b197338f8dd41cb9d7ac3640a28"
+    },
+    {
+      "path": "cards/4.2-plot-20261104/DLH-RPG-v4.2-plot-runtime37.json",
+      "bytes": 8371032,
+      "sha256": "4da99fce31b23928f3a52767f150c834d714ef5556d5ce2451d1871205513217"
+    },
+    {
+      "path": "cards/4.2-plot-20261104/README.md",
+      "bytes": 3235,
+      "sha256": "061ae45d6af73c4c65aa18f9b84c8176773e68a4aa8102f37083b13b41e0c17e"
+    },
+    {
+      "path": "cards/4.2-plot-20261104/character-book.json",
+      "bytes": 4118629,
+      "sha256": "c0648d16161eb1fe26f02d29ad2617959733d7ac0f81b3f029c94e3fdd00b6f4"
+    },
+    {
+      "path": "runtime-plot/manifest.json",
+      "bytes": 1897,
+      "sha256": "a18be847317aa6f9fcaf660057307e6af308b8c9f3e8a49ee1e5182f57b0491d"
+    },
+    {
+      "path": "runtime-plot/releases/4.2-runtime.37/scripts/schema.js",
+      "bytes": 1441800,
+      "sha256": "56aa9bce561cd461475e164702906eaa67af01d457a4915f4eebc097ae336bb9"
+    },
+    {
+      "path": "runtime-plot/releases/4.2-runtime.37/scripts/mvu-output.js",
+      "bytes": 4385,
+      "sha256": "ea54ad487654439e06276549509834b24fa97edcffa413c438b6754a0043067f"
+    },
+    {
+      "path": "runtime-plot/releases/4.2-runtime.37/scripts/snapshot-owner.js",
+      "bytes": 2890,
+      "sha256": "43665a729d8aa6f33297ef12daff61e2d2b4eea5425680a2f1e8e0485fcc71fc"
+    },
+    {
+      "path": "runtime-plot/releases/4.2-runtime.37/scripts/npc-growth.js",
+      "bytes": 5768,
+      "sha256": "839fc4cbbeb0d886d28d45392d053b32f376e7fa1b9a88f69bce262a9036e1ab"
+    },
+    {
+      "path": "runtime-plot/releases/4.2-runtime.37/scripts/prompt-budget.js",
+      "bytes": 80428,
+      "sha256": "67afe67b19893296ee27210a01de6f6db191edfb26febc19469108358ee25fb6"
+    },
+    {
+      "path": "runtime-plot/releases/4.2-runtime.37/scripts/hud.js",
+      "bytes": 7007294,
+      "sha256": "65d2111f9e69fcf9760ab7e538986257441eaaadf43253ec64b4fe6f22abc2aa"
+    }
+  ]
+}

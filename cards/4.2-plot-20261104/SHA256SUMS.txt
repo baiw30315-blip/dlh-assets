@@ -1,0 +1,12 @@
+993c7e0f99a9a467df48cfc7f75174463e1f7b197338f8dd41cb9d7ac3640a28  cards/4.2-plot-20261104/DLH-RPG-v4.2-plot-runtime37.png
+4da99fce31b23928f3a52767f150c834d714ef5556d5ce2451d1871205513217  cards/4.2-plot-20261104/DLH-RPG-v4.2-plot-runtime37.json
+061ae45d6af73c4c65aa18f9b84c8176773e68a4aa8102f37083b13b41e0c17e  cards/4.2-plot-20261104/README.md
+c0648d16161eb1fe26f02d29ad2617959733d7ac0f81b3f029c94e3fdd00b6f4  cards/4.2-plot-20261104/character-book.json
+a18be847317aa6f9fcaf660057307e6af308b8c9f3e8a49ee1e5182f57b0491d  runtime-plot/manifest.json
+56aa9bce561cd461475e164702906eaa67af01d457a4915f4eebc097ae336bb9  runtime-plot/releases/4.2-runtime.37/scripts/schema.js
+ea54ad487654439e06276549509834b24fa97edcffa413c438b6754a0043067f  runtime-plot/releases/4.2-runtime.37/scripts/mvu-output.js
+43665a729d8aa6f33297ef12daff61e2d2b4eea5425680a2f1e8e0485fcc71fc  runtime-plot/releases/4.2-runtime.37/scripts/snapshot-owner.js
+839fc4cbbeb0d886d28d45392d053b32f376e7fa1b9a88f69bce262a9036e1ab  runtime-plot/releases/4.2-runtime.37/scripts/npc-growth.js
+67afe67b19893296ee27210a01de6f6db191edfb26febc19469108358ee25fb6  runtime-plot/releases/4.2-runtime.37/scripts/prompt-budget.js
+65d2111f9e69fcf9760ab7e538986257441eaaadf43253ec64b4fe6f22abc2aa  runtime-plot/releases/4.2-runtime.37/scripts/hud.js
+6fd5d0c996d56bf1b1a555618bd916a7c481216317a29e23bc0b3c6899327c7d  cards/4.2-plot-20261104/release.json

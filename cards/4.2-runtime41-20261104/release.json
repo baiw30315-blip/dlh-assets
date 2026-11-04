@@ -1,0 +1,61 @@
+{
+  "cardVersion": "4.2",
+  "runtime": "4.2-runtime.41",
+  "remoteManifest": "https://raw.githubusercontent.com/baiw30315-blip/dlh-assets/main/runtime-plot/manifest.json",
+  "saveContract": "rpg413-portable-history-v1",
+  "cardContract": "rpg42-preprocess1-e89eff7926746da9",
+  "requiresPairedWorldbook": true,
+  "xiajingIncluded": false,
+  "files": [
+    {
+      "path": "cards/4.2-runtime41-20261104/DLH-RPG-v4.2-runtime41.png",
+      "bytes": 11947927,
+      "sha256": "4b66219353c89a709433e00ccbb84b1f4b4c347a94810de14829adb243038b6e"
+    },
+    {
+      "path": "cards/4.2-runtime41-20261104/DLH-RPG-v4.2-runtime41.json",
+      "bytes": 8371805,
+      "sha256": "4f684e7d4e88f25e79d5874131c63ce4b8ccf91114246ad4046c47a71a6ba1db"
+    },
+    {
+      "path": "cards/4.2-runtime41-20261104/README.md",
+      "bytes": 1463,
+      "sha256": "d06459d6887ccfd353a08a520e0aa1c5a344c5050c8aa10da16598e213454897"
+    },
+    {
+      "path": "runtime-plot/manifest.json",
+      "bytes": 2027,
+      "sha256": "bcab689813d58982e82f6c6b5ec7d6b82380dbf207b0d184cf892b0554b7942e"
+    },
+    {
+      "path": "runtime-plot/releases/4.2-runtime.41/scripts/schema.js",
+      "bytes": 1445549,
+      "sha256": "5e54d3eef90af34f2b8cdfc34c8993923a4e9c2021cd1223970fa4510b49a359"
+    },
+    {
+      "path": "runtime-plot/releases/4.2-runtime.41/scripts/mvu-output.js",
+      "bytes": 4385,
+      "sha256": "ea54ad487654439e06276549509834b24fa97edcffa413c438b6754a0043067f"
+    },
+    {
+      "path": "runtime-plot/releases/4.2-runtime.41/scripts/snapshot-owner.js",
+      "bytes": 2890,
+      "sha256": "43665a729d8aa6f33297ef12daff61e2d2b4eea5425680a2f1e8e0485fcc71fc"
+    },
+    {
+      "path": "runtime-plot/releases/4.2-runtime.41/scripts/npc-growth.js",
+      "bytes": 5768,
+      "sha256": "839fc4cbbeb0d886d28d45392d053b32f376e7fa1b9a88f69bce262a9036e1ab"
+    },
+    {
+      "path": "runtime-plot/releases/4.2-runtime.41/scripts/prompt-budget.js",
+      "bytes": 80428,
+      "sha256": "67afe67b19893296ee27210a01de6f6db191edfb26febc19469108358ee25fb6"
+    },
+    {
+      "path": "runtime-plot/releases/4.2-runtime.41/scripts/hud.js",
+      "bytes": 7004075,
+      "sha256": "412f6497fbcda27dc53d471ba2240376bab1bc4f150d78294c70c31734ec3508"
+    }
+  ]
+}

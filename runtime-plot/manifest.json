@@ -1,46 +1,46 @@
 {
   "format": "dlh-runtime-v1",
-  "version": "4.2-runtime.39",
-  "sequence": 39,
+  "version": "4.2-runtime.40",
+  "sequence": 40,
   "loaderApi": 1,
-  "cardContract": "rpg42-preprocess1-b5fd77c31905a440",
+  "cardContract": "rpg42-preprocess1-cd4456167d49b959",
   "saveContract": "rpg413-portable-history-v1",
   "requiresCardUpdate": false,
-  "notes": "4.2 预算前渲染修复：世界书30变量列表改为预算前执行，只用渲染结果参与计数；保留全部只读事实和剧情/记忆简报，保护资料中的EJS/宏字面文本。必须导入配套整卡并采用新版世界书，单独更新旧卡脚本不能修复此项。存档格式不变，保留38版装备补词与聊天救援移除；不含未完成侠境。",
+  "notes": "4.2 模板闭合热修复：世界书30变量列表改为预算前执行，只用渲染结果参与计数；保留全部只读事实和剧情/记忆简报，保护资料中的EJS/宏字面文本。必须导入配套整卡并采用新版世界书，单独更新旧卡脚本不能修复此项。存档格式不变，保留38版装备补词与聊天救援移除；不含未完成侠境。",
   "files": [
     {
       "id": "schema",
-      "path": "releases/4.2-runtime.39/scripts/schema.js",
+      "path": "releases/4.2-runtime.40/scripts/schema.js",
       "bytes": 1445549,
       "sha256": "5e54d3eef90af34f2b8cdfc34c8993923a4e9c2021cd1223970fa4510b49a359"
     },
     {
       "id": "mvu-output",
-      "path": "releases/4.2-runtime.39/scripts/mvu-output.js",
+      "path": "releases/4.2-runtime.40/scripts/mvu-output.js",
       "bytes": 4385,
       "sha256": "ea54ad487654439e06276549509834b24fa97edcffa413c438b6754a0043067f"
     },
     {
       "id": "snapshot-owner",
-      "path": "releases/4.2-runtime.39/scripts/snapshot-owner.js",
+      "path": "releases/4.2-runtime.40/scripts/snapshot-owner.js",
       "bytes": 2890,
       "sha256": "43665a729d8aa6f33297ef12daff61e2d2b4eea5425680a2f1e8e0485fcc71fc"
     },
     {
       "id": "npc-growth",
-      "path": "releases/4.2-runtime.39/scripts/npc-growth.js",
+      "path": "releases/4.2-runtime.40/scripts/npc-growth.js",
       "bytes": 5768,
       "sha256": "839fc4cbbeb0d886d28d45392d053b32f376e7fa1b9a88f69bce262a9036e1ab"
     },
     {
       "id": "prompt-budget",
-      "path": "releases/4.2-runtime.39/scripts/prompt-budget.js",
+      "path": "releases/4.2-runtime.40/scripts/prompt-budget.js",
       "bytes": 80428,
       "sha256": "67afe67b19893296ee27210a01de6f6db191edfb26febc19469108358ee25fb6"
     },
     {
       "id": "hud",
-      "path": "releases/4.2-runtime.39/scripts/hud.js",
+      "path": "releases/4.2-runtime.40/scripts/hud.js",
       "bytes": 7004075,
       "sha256": "412f6497fbcda27dc53d471ba2240376bab1bc4f150d78294c70c31734ec3508"
     }

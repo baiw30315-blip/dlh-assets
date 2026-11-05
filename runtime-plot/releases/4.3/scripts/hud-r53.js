@@ -27548,7 +27548,7 @@ function installDlhXiajing(RT,root,trial,onEnterBattle){
  return {open:()=>tile.click(),close,render,trial};
 }
 var XIAJING_UI=null;
-var DLH_WUMU_RULES="wumu-rules-v1-968f59fc6b08df216ffc";
+var DLH_WUMU_RULES="wumu-rules-v1-cced9ce9c92df07e92f6";
 function dlhWumuSha256(bytes){
  const K=[1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298];
  const H=new Uint32Array([1779033703,3144134277,1013904242,2773480762,1359893119,2600822924,528734635,1541459225]),data=new Uint8Array(Math.ceil((bytes.length+9)/64)*64);data.set(bytes);data[bytes.length]=128;const dv=new DataView(data.buffer);dv.setUint32(data.length-4,bytes.length*8);const w=new Uint32Array(64),rr=(x,n)=>(x>>>n)|(x<<(32-n));
@@ -27651,8 +27651,13 @@ function createDlhWumu(rt,registry,character,options={}){
   }
   return out;
  }
+ function optionalReports(value){
+  const out=cp(value||{});
+  for(const key of ['数值分配','招式分配','组装诊断'])if(out[key]==null)delete out[key];
+  return out;
+ }
  async function materialize(row,name,info,h){
-  DLH_WUMU_LIBRARY.validate(row);if(row.rules===DLH_WUMU_RULES)validateEntry(row);let definition=cp(row.definition),reports=cp(row.reports||{}),notes=[];
+  DLH_WUMU_LIBRARY.validate(row);if(row.rules===DLH_WUMU_RULES)validateEntry(row);let definition=cp(row.definition),reports=optionalReports(row.reports),notes=[];
   if(row.rules!==DLH_WUMU_RULES){
    if(row.kind==='武学'){
     const input=cp(definition),report=reports.数值分配;
@@ -27663,7 +27668,7 @@ function createDlhWumu(rt,registry,character,options={}){
       input.allocation.timing=Object.fromEntries(Object.entries(report.时序设计).map(([id,p])=>[id,{mode:p.mode,turns:p.turns}]));
      }
     }
-    const result=dlhPrepareGeneratedArt(input,row.source.info,row.source.name,registry,notes,null,{preserveBonuses:true});if(structure(result.definition,result.allocationReport)!==structure(definition,result.allocationReport))throw Error('当前规则需要改变机制、绑定或词条属性，原藏录保留，请手动重新设计');definition=result.definition;reports={数值分配:result.allocationReport,招式分配:result.attackAllocationReport,...(result.briefAssembly?{组装诊断:result.briefAssembly}:{})};
+    const result=dlhPrepareGeneratedArt(input,row.source.info,row.source.name,registry,notes,null,{preserveBonuses:true});if(structure(result.definition,result.allocationReport)!==structure(definition,result.allocationReport))throw Error('当前规则需要改变机制、绑定或词条属性，原藏录保留，请手动重新设计');definition=result.definition;reports=optionalReports({数值分配:result.allocationReport,招式分配:result.attackAllocationReport,组装诊断:result.briefAssembly});
    }else{
     const context={...row.source.info,觉醒:'圆满',状态:'完好',武道境界:definition.定型境界};const recalibrated=dlhTalentCalibrateGrowth(dlhTalentCalibrateFive(cp(definition),context),context);noLoss(definition.招式,recalibrated.招式,'体质招式');noLoss(definition.特殊机制,recalibrated.特殊机制,'体质特殊机制');definition=DLH_TALENTS.validateDefinition(recalibrated,context);
    }

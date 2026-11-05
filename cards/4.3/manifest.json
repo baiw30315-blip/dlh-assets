@@ -1,0 +1,24 @@
+{
+  "version": "4.3",
+  "name": "大凉龙虎传RPGv4.3",
+  "date": "2026-11-05",
+  "requiresPairedWorldbook": true,
+  "saveContract": "rpg42-material-fulljson-v1",
+  "files": [
+    {
+      "name": "大凉龙虎传RPGv4.3.png",
+      "bytes": 18811835,
+      "sha256": "ada1491b003e0ad19944f0bb2854bd0bfb90bea58aaf4b86fe43d9ca5cb90891"
+    },
+    {
+      "name": "大凉龙虎传RPGv4.3.json",
+      "bytes": 13519736,
+      "sha256": "b1a9f7739065f92ef7ead374b9a011c46838794480626fc0abd5dce7fb522aed"
+    },
+    {
+      "name": "README.md",
+      "bytes": 1502,
+      "sha256": "d0dbc6c1f091c2a9d4c029e756118449b933271c8b578de17c05c4b4af2f6f15"
+    }
+  ]
+}

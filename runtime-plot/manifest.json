@@ -1,12 +1,12 @@
 {
   "format": "dlh-runtime-v1",
   "version": "4.3",
-  "sequence": 49,
+  "sequence": 50,
   "loaderApi": 1,
   "cardContract": "rpg43-native-material-94deb4db28892dbd",
   "saveContract": "rpg42-material-fulljson-v1",
   "requiresCardUpdate": false,
-  "notes": "4.3 修复回复完成后悬浮球仍等待聊天变量，以及普通正文误报开战记录。已装配套 4.3 的玩家可更新脚本。",
+  "notes": "4.3 修复开局重 roll 缺少前序基准的问题。修复回复完成后悬浮球仍等待聊天变量，以及普通正文误报开战记录。已装配套 4.3 的玩家可更新脚本。",
   "files": [
     {
       "id": "schema",
@@ -16,9 +16,9 @@
     },
     {
       "id": "mvu-output",
-      "path": "releases/4.3/scripts/mvu-output.js",
-      "bytes": 4385,
-      "sha256": "ea54ad487654439e06276549509834b24fa97edcffa413c438b6754a0043067f"
+      "path": "releases/4.3/scripts/mvu-output-r50.js",
+      "bytes": 6998,
+      "sha256": "f7af8dc78a633418ee9194f24737714570887a892f895c2658e3ef59baa2309e"
     },
     {
       "id": "snapshot-owner",
@@ -40,9 +40,9 @@
     },
     {
       "id": "hud",
-      "path": "releases/4.3/scripts/hud-r49.js",
-      "bytes": 11712723,
-      "sha256": "5ebc2014109913e854cfb4f5c9496d21a5861bb595540544508ab28828cc7e33"
+      "path": "releases/4.3/scripts/hud-r50.js",
+      "bytes": 11714785,
+      "sha256": "4f5648473299c7e1235d3deb610e7dc4fe3a0e8d42bdf933f97f4bc98e014ef5"
     }
   ]
 }

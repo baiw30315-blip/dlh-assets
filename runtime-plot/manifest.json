@@ -1,48 +1,48 @@
 {
   "format": "dlh-runtime-v1",
   "version": "4.3",
-  "sequence": 53,
+  "sequence": 54,
   "loaderApi": 1,
-  "cardContract": "rpg43-native-material-9a3b5cc5cdb8dbd5",
+  "cardContract": "rpg43-native-material-d7a22913f2411eaf",
   "saveContract": "rpg42-material-fulljson-v1",
   "requiresCardUpdate": false,
-  "notes": "白悟首次展开无量空处播放整段动画，后续展开播放净场特效，均覆盖整个战阵并在播完后退场。修复多机制武学缺少分配声明时的生成和武墓载入、武墓报错归属、队伍换序、MVU连续操作归档与旧服药记录。此本地候选需导入配套卡及同名世界书。",
+  "notes": "4.3：整合定音、月涌方圆、芳闻与变量生命周期清理；同步气海基础攻击和内力曲线、双枪内置武学及武墓。配套世界书与保存契约有更新，旧卡需完整导入本次4.3卡并绑定同名世界书。",
   "files": [
     {
       "id": "schema",
-      "path": "releases/4.3/scripts/schema-r53.js",
-      "bytes": 1495231,
-      "sha256": "55044e085787ae85372f0f82602855ca706c170a8efeba77888b5393aa9bc522"
+      "path": "releases/4.3/scripts/schema-r54.js",
+      "bytes": 1624931,
+      "sha256": "abf0687d5e09c04bfc7ea75f93ad85d227ce0781be5be92d4e8a03a741536634"
     },
     {
       "id": "mvu-output",
-      "path": "releases/4.3/scripts/mvu-output-r50.js",
+      "path": "releases/4.3/scripts/mvu-output-r54.js",
       "bytes": 6998,
       "sha256": "f7af8dc78a633418ee9194f24737714570887a892f895c2658e3ef59baa2309e"
     },
     {
       "id": "snapshot-owner",
-      "path": "releases/4.3/scripts/snapshot-owner.js",
+      "path": "releases/4.3/scripts/snapshot-owner-r54.js",
       "bytes": 2890,
       "sha256": "43665a729d8aa6f33297ef12daff61e2d2b4eea5425680a2f1e8e0485fcc71fc"
     },
     {
       "id": "npc-growth",
-      "path": "releases/4.3/scripts/npc-growth.js",
+      "path": "releases/4.3/scripts/npc-growth-r54.js",
       "bytes": 5768,
       "sha256": "839fc4cbbeb0d886d28d45392d053b32f376e7fa1b9a88f69bce262a9036e1ab"
     },
     {
       "id": "prompt-budget",
-      "path": "releases/4.3/scripts/prompt-budget.js",
+      "path": "releases/4.3/scripts/prompt-budget-r54.js",
       "bytes": 80428,
       "sha256": "67afe67b19893296ee27210a01de6f6db191edfb26febc19469108358ee25fb6"
     },
     {
       "id": "hud",
-      "path": "releases/4.3/scripts/hud-r53.js",
-      "bytes": 6212118,
-      "sha256": "66ade920ab29ab142abde99ecd25149b923307f718d29b42f23dd8722eba443e"
+      "path": "releases/4.3/scripts/hud-r54.js",
+      "bytes": 6445320,
+      "sha256": "95eca20f89d9655ecca3d0dfa695eaaf3bcda30b45182a5bf8f8498ff2baf034"
     }
   ]
 }

@@ -1,24 +1,24 @@
 {
   "version": "4.3",
   "name": "大凉龙虎传RPGv4.3",
-  "date": "2026-11-05",
+  "date": "2026-11-08",
   "requiresPairedWorldbook": true,
   "saveContract": "rpg42-material-fulljson-v1",
   "files": [
     {
       "name": "大凉龙虎传RPGv4.3.png",
-      "bytes": 11413523,
-      "sha256": "962c9df3a14727e7e7fd01fd54c12b2f22002a7699529e8e8be7ddfe74fa9ec5"
+      "bytes": 11789967,
+      "sha256": "34aa73b61116ef91e58079703ef443735bf94320ebdb954add84ad16a1c3742a"
     },
     {
       "name": "大凉龙虎传RPGv4.3.json",
-      "bytes": 7971001,
-      "sha256": "3b154e595e3feff60a0055050231f9e6c6e5f329d24096399d4b855d699cd655"
+      "bytes": 8253335,
+      "sha256": "f50555f844f4d1be7a5cd75e39b165d525b2038d402e920c121eb3b67802d75b"
     },
     {
       "name": "README.md",
-      "bytes": 1502,
-      "sha256": "d0dbc6c1f091c2a9d4c029e756118449b933271c8b578de17c05c4b4af2f6f15"
+      "bytes": 3533,
+      "sha256": "0ff47f2f527c9d086186c701791ac168ef7864bcba3da10add4de8aa8fefc1e5"
     }
   ]
 }

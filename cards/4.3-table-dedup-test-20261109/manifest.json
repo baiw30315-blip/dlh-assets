@@ -1,0 +1,48 @@
+{
+  "format": "dlh-runtime-v1",
+  "version": "4.3-itadori-ward-preview.13",
+  "sequence": 54,
+  "loaderApi": 1,
+  "cardContract": "rpg43-itadori-trial-10d208c9253526cf-table-v2",
+  "saveContract": "rpg42-material-fulljson-v1",
+  "requiresCardUpdate": false,
+  "notes": "按内容共享跨楼分表；退役旧阶段已结算的药力明细；制作等待队列超时后撤销未开始操作。",
+  "files": [
+    {
+      "id": "schema",
+      "path": "releases/4.3-itadori-ward-preview.13/scripts/schema-r54.js",
+      "bytes": 1640245,
+      "sha256": "a968ac1ed8001ce6b1194b743e630321de05a2e6b4905e2f280ba5dafff6bf00"
+    },
+    {
+      "id": "mvu-output",
+      "path": "releases/4.3-itadori-ward-preview.13/scripts/mvu-output-r54.js",
+      "bytes": 6998,
+      "sha256": "f7af8dc78a633418ee9194f24737714570887a892f895c2658e3ef59baa2309e"
+    },
+    {
+      "id": "snapshot-owner",
+      "path": "releases/4.3-itadori-ward-preview.13/scripts/snapshot-owner-r54.js",
+      "bytes": 2890,
+      "sha256": "43665a729d8aa6f33297ef12daff61e2d2b4eea5425680a2f1e8e0485fcc71fc"
+    },
+    {
+      "id": "npc-growth",
+      "path": "releases/4.3-itadori-ward-preview.13/scripts/npc-growth-r54.js",
+      "bytes": 5768,
+      "sha256": "839fc4cbbeb0d886d28d45392d053b32f376e7fa1b9a88f69bce262a9036e1ab"
+    },
+    {
+      "id": "prompt-budget",
+      "path": "releases/4.3-itadori-ward-preview.13/scripts/prompt-budget-r54.js",
+      "bytes": 80428,
+      "sha256": "67afe67b19893296ee27210a01de6f6db191edfb26febc19469108358ee25fb6"
+    },
+    {
+      "id": "hud",
+      "path": "releases/4.3-itadori-ward-preview.13/scripts/hud-r54.js",
+      "bytes": 6596031,
+      "sha256": "4cf27362f47ece3301af9945f252c5e0751797effb0f344f098165bfd2c02ccf"
+    }
+  ]
+}

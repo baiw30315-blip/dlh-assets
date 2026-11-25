@@ -1,7 +1,7 @@
 {
   "format": "dlh-runtime-v1",
   "version": "1.0",
-  "sequence": 137,
+  "sequence": 150,
   "loaderApi": 1,
   "cardContract": "dlh-yanyun-1-worldbook-ten-shadows-v2",
   "saveContract": "rpg42-material-fulljson-v1",
@@ -10,9 +10,9 @@
   "files": [
     {
       "id": "schema",
-      "path": "releases/1.0/scripts/schema-r137.js",
-      "bytes": 1703943,
-      "sha256": "69ef070770fd6ec8d305d752a8dd1f81c1271a2bf61b3569fcc3cd775f33649c"
+      "path": "releases/1.0/scripts/schema-r150.js",
+      "bytes": 1704899,
+      "sha256": "079806107a43ad97b8caab259a55c8de14cce34d9e5d20ce414b0eefd95c4f90"
     },
     {
       "id": "mvu-output",
@@ -40,16 +40,10 @@
     },
     {
       "id": "hud",
-      "path": "releases/1.0/scripts/hud-r137.js",
-      "bytes": 7426154,
-      "sha256": "278e9239dc273c51c5c270bac03e9a4b12325756914ef94f92e942702ae73ce2"
+      "path": "releases/1.0/scripts/hud-r150.js",
+      "bytes": 7700283,
+      "sha256": "38338b2aab1ddbe9af1198fd5b7ee52549dd4adec3a313767fc3eaf854e17b0c"
     }
   ],
-  "worldbookRevision": "79a65042cec012aa4ebc0dfcd71d8d7a7b1faf754ac771b8791747dc62ea2025",
-  "worldbook": {
-    "path": "releases/1.0/worldbook/patch.json",
-    "from": "ebdc6f07c04296b230dab58638a07a27c32af9f96210a60e6b37ffb29af5a598",
-    "bytes": 2757,
-    "sha256": "fdf9cbe56c105a5fd560568b6d67d202b58537c36295a1cee647fde6c9bd43b8"
-  }
+  "worldbookRevision": "f729c736d9daf3e1133c4e73fad2313a8f15fb54ad048bcaa5d5349aff70f770"
 }

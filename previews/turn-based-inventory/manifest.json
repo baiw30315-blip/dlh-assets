@@ -622,6 +622,206 @@
     "bag-icons/N0194.webp": {
       "bytes": 8958,
       "sha256": "3db54225ddd4e3b600f230c781e91756e3e58ee29b56611e28657a7d3d6df03b"
+    },
+    "bag-icons/N0152.webp": {
+      "bytes": 18642,
+      "sha256": "21cdffd92e23433e6c080106af0291bd0d2f355f62ca1e9e68ea1a6e8e91e7c7"
+    },
+    "bag-icons/N0834.webp": {
+      "bytes": 17922,
+      "sha256": "c25ec148364f57b6af50878bfeeaecd9759c8e112f978a4e14cc1976cf484415"
+    },
+    "bag-icons/I07.webp": {
+      "bytes": 9702,
+      "sha256": "8c72a96b667add9d03ff3827bfee0ec583b83670bcb9d965ec70d6e1dd095124"
+    },
+    "bag-icons/N0518.webp": {
+      "bytes": 15844,
+      "sha256": "caae2d1f36e5fb76a8b348b0e6f0d64678d42e396b5ea4308c14b988b5bc7d02"
+    },
+    "bag-icons/N0006.webp": {
+      "bytes": 18702,
+      "sha256": "d1a4d6a51e000b053c2609bb91c3a90a45c5527ffc82af9a184f59adfe5dbe85"
+    },
+    "bag-icons/N0151.webp": {
+      "bytes": 13770,
+      "sha256": "8dcd568bd0fd1ba4f2eb9c60704032de21ad48dad7eb6131d068c0b55657880d"
+    },
+    "bag-icons/N0530.webp": {
+      "bytes": 15164,
+      "sha256": "c4ac7085954a2763521b7df79dc2ab0682c044fdb807679acc5efb80e59a0012"
+    },
+    "bag-icons/N0005.webp": {
+      "bytes": 10048,
+      "sha256": "aaa14c307154039034979b05cdbb7d72336e3810feb7c312c056d10a08972c6e"
+    },
+    "bag-icons/N0148.webp": {
+      "bytes": 14558,
+      "sha256": "1d42deeb610b8c3fa8141df19723f75ef0c9c808088991328fa68beb27a186d7"
+    },
+    "bag-icons/N0236.webp": {
+      "bytes": 18808,
+      "sha256": "e170ef541c435183d7a5ae44f0225ab0b75109e91bebed2fa25523b2d4c73897"
+    },
+    "bag-icons/N0510.webp": {
+      "bytes": 19776,
+      "sha256": "e1eb0c24ceb95e8670913223e0a84e30f33a1e087b600b396688c26accfb3db5"
+    },
+    "bag-icons/N0235.webp": {
+      "bytes": 16808,
+      "sha256": "458d74c251c2f824d0b181dd7fd5ee62ed4e4f571bcf9329585b9be1497ac41d"
+    },
+    "bag-icons/N0659.webp": {
+      "bytes": 15976,
+      "sha256": "55476963cdf1f8df0b8b7fe5a27671275faf3727d2dd06dde9ff4db84f8e00da"
+    },
+    "bag-icons/N0227.webp": {
+      "bytes": 25670,
+      "sha256": "eb4f39aa397ddfbfa05f435afd904378d84685f6e63287f80e3e73306e26d227"
+    },
+    "bag-icons/N0303.webp": {
+      "bytes": 18900,
+      "sha256": "45dcf2e7cfb91033cb79baae3fd339428087ec4ae384156eebb18fb63b6d042f"
+    },
+    "bag-icons/N0527.webp": {
+      "bytes": 17806,
+      "sha256": "1b4a8c419c452b563bbdc8a062c3f07519becd86c7a5c6e63256219a3bdc708e"
+    },
+    "bag-icons/N0523.webp": {
+      "bytes": 13198,
+      "sha256": "f8b9371f1e3df43d7f4776c8dfb994029535483f87427b32cc2b204cdb7917ec"
+    },
+    "bag-icons/N0223.webp": {
+      "bytes": 15504,
+      "sha256": "4b6ca0a070486aae83bed234f1ab6a41951ce18100e49387f4d10d109c66fa05"
+    },
+    "bag-icons/N0340.webp": {
+      "bytes": 16952,
+      "sha256": "dffafb8dec28b7b7b923b8aceac55459f3d5272f60d4b59e9b9163b1c69bff65"
+    },
+    "bag-icons/N0818.webp": {
+      "bytes": 17570,
+      "sha256": "811b7faaac697b75814f81aa4055c5beeab5e340209bba495a99e832ca74bea3"
+    },
+    "bag-icons/N0949.webp": {
+      "bytes": 15980,
+      "sha256": "4b30c452382ccd02d787a0ebbc46747b66b55ecc68827b16136d2f825a2dd96e"
+    },
+    "bag-icons/N0350.webp": {
+      "bytes": 17992,
+      "sha256": "b5a7ad09e6b8aeca1ed022b9684868ca2c94048ce367c09265e64d528f84428c"
+    },
+    "bag-icons/N0347.webp": {
+      "bytes": 17612,
+      "sha256": "c01731c5a6aaa9de46fae77ba1bfa941058074233bb87e3db063e2c7073e035c"
+    },
+    "bag-icons/N0471.webp": {
+      "bytes": 16778,
+      "sha256": "1a79797334ca55b122c1a8c881d3b3984ca741f33ad159f98f0f235f3cf2f3c4"
+    },
+    "bag-icons/N0658.webp": {
+      "bytes": 14264,
+      "sha256": "a2570b9b1081fe78fdd3289995373543acdd42d8165f484f005f5d53b987be42"
+    },
+    "bag-icons/N0533.webp": {
+      "bytes": 9066,
+      "sha256": "c324303f36370076bfe7fb85021894115611eb8f56733524d101353a8ba93187"
+    },
+    "bag-icons/N0245.webp": {
+      "bytes": 16716,
+      "sha256": "b956b85d2ec6e635ae44765716903ee68d5a9e9d3f1878d274dba16ee8de05eb"
+    },
+    "bag-icons/N0344.webp": {
+      "bytes": 17368,
+      "sha256": "4b85752ce8482f9f770fb893d058d09bb70ef72fdb90adf82a9463bba74cb0ba"
+    },
+    "bag-icons/N0222.webp": {
+      "bytes": 15634,
+      "sha256": "1e660699b6e1284989b9527f38c7389466e929f96c4144f2364bfa8f670ff17f"
+    },
+    "bag-icons/N0316.webp": {
+      "bytes": 14632,
+      "sha256": "a156125646120e590d6186ad133e7517433a3486728d93e485821af5e11056eb"
+    },
+    "bag-icons/N0243.webp": {
+      "bytes": 17718,
+      "sha256": "bd92e91bce825f59f4c9d55bd6cc5e7111519e8aeefc0886852de35e77dd9f16"
+    },
+    "bag-icons/N0657.webp": {
+      "bytes": 17566,
+      "sha256": "abb09b34af3b6050fa333502fdc5f8dad3c1cffab2d158c35fd7fa52f6aea888"
+    },
+    "bag-icons/I22.webp": {
+      "bytes": 11406,
+      "sha256": "1a41007973fcfee42c47c9d38aefc4c20e4f132f34f0c4c53c6866662a324e39"
+    },
+    "bag-icons/N0567.webp": {
+      "bytes": 15238,
+      "sha256": "36aedfdc6377772d921ec0d458d70ab53b77cc7b62d134d4bd99a66c0f352600"
+    },
+    "bag-icons/N0087.webp": {
+      "bytes": 17976,
+      "sha256": "8ee7b14bd2a9b7f3a2ffaa2df368a1fb6ec6ebc6cd424550d6c871a738ab6f64"
+    },
+    "bag-icons/N0203.webp": {
+      "bytes": 11096,
+      "sha256": "9448607738db10c7319cdad5d01c9871e774941cb1584062cc0326c04ff1d794"
+    },
+    "bag-icons/N0354.webp": {
+      "bytes": 13464,
+      "sha256": "3b74d7abe271ddcb4e07027d2ed31921150e857ab89198f8ebe61ba53ec2f409"
+    },
+    "bag-icons/N0172.webp": {
+      "bytes": 12616,
+      "sha256": "02cb8c71ef6dce0f50f50cadfb163f346b84027f54ea53ad1c6d1c1adf505644"
+    },
+    "bag-icons/N0752.webp": {
+      "bytes": 16896,
+      "sha256": "f656aba9c0fd39bad4873065d1796da07f58eee4c0c4e7ae1ea869b4a3878e33"
+    },
+    "bag-icons/N0134.webp": {
+      "bytes": 16632,
+      "sha256": "f67309012882978338a2c5bce051c20aabedccc9fff9917ab07250bf950fc64c"
+    },
+    "bag-icons/N0327.webp": {
+      "bytes": 16714,
+      "sha256": "d3bd50f3865c942504af8aab4054a53b35453a82d9b4f88ae1dd110030d49aa0"
+    },
+    "bag-icons/N0328.webp": {
+      "bytes": 17410,
+      "sha256": "305238fa4831c6eb06d495adc3ebc2f45db9ae72aeaae5e8a2fd32294cd6d424"
+    },
+    "bag-icons/N0135.webp": {
+      "bytes": 29744,
+      "sha256": "1be71b1f923f4aefc9e805fcc20734c5e10293ccf7c50e44ec5bef5836471ed9"
+    },
+    "bag-icons/N0189.webp": {
+      "bytes": 10440,
+      "sha256": "4e78cce9e120c729bf173a32c43df5777ff109eb4efcc345cd2b58105016fa10"
+    },
+    "bag-icons/N0217.webp": {
+      "bytes": 13528,
+      "sha256": "1157c2e8dd8a532f3a40e3f384e4ca7fd183e926d4e7bd112017d97439e0aae2"
+    },
+    "bag-icons/N0251.webp": {
+      "bytes": 17782,
+      "sha256": "ae5e50798701b1634b991f8f86c7658e134021a0a478b84097d204a58de64b14"
+    },
+    "bag-icons/N0238.webp": {
+      "bytes": 24242,
+      "sha256": "0cec2aadd5cae35e4ddea4d676003fd0001ea627d2791f7f80c931956441c0f5"
+    },
+    "bag-icons/N0085.webp": {
+      "bytes": 13836,
+      "sha256": "01fbd6a2e8db7f8ef80243bcfd78eb42e86371ff225792aa30358ce33444f862"
+    },
+    "bag-icons/N0110.webp": {
+      "bytes": 26660,
+      "sha256": "8e5a2d850c638055c888f0ac56ba58cc6e7d0e05c3246a892c7c032a0d5dd1b1"
+    },
+    "bag-icons/N0197.webp": {
+      "bytes": 16432,
+      "sha256": "100ed70eb79f519789f03a6c14a4e9c64efafcffbba42998d2a33df6d9691d9c"
     }
   },
   "itemCatalog": {
@@ -631,7 +831,45 @@
       "什锦糕点": "bag-icons/I24.webp",
       "薄饼": "bag-icons/D0012.webp",
       "橘子": "bag-icons/D0035.webp",
-      "切片肉食": "bag-icons/N0200.webp"
+      "切片肉食": "bag-icons/N0200.webp",
+      "圆烧饼": "bag-icons/N0152.webp",
+      "花纹面饼": "bag-icons/N0834.webp",
+      "白面包子": "bag-icons/I07.webp",
+      "双蒸包": "bag-icons/N0170.webp",
+      "开馅肉包": "bag-icons/N0518.webp",
+      "筐装粽子": "bag-icons/N0006.webp",
+      "模印糕点": "bag-icons/N0151.webp",
+      "方切花糕": "bag-icons/N0530.webp",
+      "青团": "bag-icons/N0005.webp",
+      "糯米团": "bag-icons/N0148.webp",
+      "裹粉青团": "bag-icons/N0236.webp",
+      "碗装拌面": "bag-icons/N0510.webp",
+      "配菜细面": "bag-icons/N0235.webp",
+      "细面拼盘": "bag-icons/N0659.webp",
+      "白米饭": "bag-icons/N0227.webp",
+      "配菜饭": "bag-icons/N0303.webp",
+      "什锦饭": "bag-icons/N0527.webp",
+      "清汤": "bag-icons/N0523.webp",
+      "金黄浓汤": "bag-icons/N0223.webp",
+      "砂锅汤": "bag-icons/N0340.webp",
+      "烤禽拼盘": "bag-icons/N0818.webp",
+      "整鱼": "bag-icons/N0949.webp",
+      "盘装银鱼": "bag-icons/N0350.webp",
+      "碗装肉块": "bag-icons/N0347.webp",
+      "酱汁切肉": "bag-icons/N0471.webp",
+      "长盘肉食": "bag-icons/N0658.webp",
+      "白豆腐": "bag-icons/N0533.webp",
+      "煎豆腐块": "bag-icons/N0245.webp",
+      "炸丸子": "bag-icons/N0344.webp",
+      "清煮丸子": "bag-icons/N0222.webp",
+      "炒豆芽": "bag-icons/N0316.webp",
+      "什锦蔬菜": "bag-icons/N0243.webp",
+      "时蔬拼盘": "bag-icons/N0657.webp",
+      "苹果盘": "bag-icons/I22.webp",
+      "柿子": "bag-icons/N0567.webp",
+      "西瓜片": "bag-icons/N0087.webp",
+      "茶汤": "bag-icons/N0203.webp",
+      "果茶": "bag-icons/N0354.webp"
     },
     "药品": {
       "纸包棕色药散": "bag-icons/N0171.webp",
@@ -639,7 +877,656 @@
       "白瓷瓶药粉": "bag-icons/N0191.webp",
       "青花药瓶": "bag-icons/N0168.webp",
       "系签白瓷药瓶": "bag-icons/N0193.webp",
-      "红陶药罐": "bag-icons/N0194.webp"
+      "红陶药罐": "bag-icons/N0194.webp",
+      "散装药丸": "bag-icons/N0181.webp",
+      "罐装药丸": "bag-icons/N0198.webp",
+      "纸包青色药散": "bag-icons/N0172.webp",
+      "方盒细粉": "bag-icons/N0752.webp",
+      "素罐膏剂": "bag-icons/N0134.webp",
+      "圆盒浅色膏": "bag-icons/N0327.webp",
+      "圆盒朱色膏": "bag-icons/N0328.webp",
+      "彩瓷膏罐": "bag-icons/N0135.webp",
+      "细颈白瓶": "bag-icons/N0189.webp",
+      "系签青瓷瓶": "bag-icons/N0217.webp",
+      "布封药罐": "bag-icons/N0251.webp",
+      "绳封小罐": "bag-icons/N0238.webp",
+      "素面葫芦": "bag-icons/N0085.webp",
+      "系绳葫芦": "bag-icons/N0110.webp",
+      "青瓷葫芦": "bag-icons/N0197.webp"
     }
+  },
+  "itemIconRules": {
+    "tiers": [
+      [
+        "不入流",
+        "三品"
+      ],
+      [
+        "二品",
+        "一品"
+      ],
+      [
+        "后天",
+        "先天"
+      ]
+    ],
+    "families": [
+      {
+        "category": "食品",
+        "family": "面饼",
+        "terms": [
+          "饼",
+          "馕",
+          "烧饼",
+          "薄饼",
+          "锅盔"
+        ],
+        "variants": [
+          {
+            "id": "D0012",
+            "label": "薄饼",
+            "tier": 0
+          },
+          {
+            "id": "N0152",
+            "label": "圆烧饼",
+            "tier": 1
+          },
+          {
+            "id": "N0834",
+            "label": "花纹面饼",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "食品",
+        "family": "包子",
+        "terms": [
+          "包子",
+          "蒸包",
+          "肉包",
+          "菜包",
+          "馒头"
+        ],
+        "variants": [
+          {
+            "id": "I07",
+            "label": "白面包子",
+            "tier": 0
+          },
+          {
+            "id": "N0170",
+            "label": "双蒸包",
+            "tier": 1
+          },
+          {
+            "id": "N0518",
+            "label": "开馅肉包",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "食品",
+        "family": "粽子",
+        "terms": [
+          "粽",
+          "粽子"
+        ],
+        "variants": [
+          {
+            "id": "N0006",
+            "label": "筐装粽子",
+            "tier": 0
+          }
+        ]
+      },
+      {
+        "category": "食品",
+        "family": "糕点",
+        "terms": [
+          "糕",
+          "糕点",
+          "点心",
+          "酥",
+          "月饼"
+        ],
+        "variants": [
+          {
+            "id": "N0151",
+            "label": "模印糕点",
+            "tier": 0
+          },
+          {
+            "id": "I24",
+            "label": "什锦糕点",
+            "tier": 1
+          },
+          {
+            "id": "N0530",
+            "label": "方切花糕",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "食品",
+        "family": "甜团",
+        "terms": [
+          "团子",
+          "青团",
+          "汤圆",
+          "糯米团"
+        ],
+        "variants": [
+          {
+            "id": "N0005",
+            "label": "青团",
+            "tier": 0
+          },
+          {
+            "id": "N0148",
+            "label": "糯米团",
+            "tier": 1
+          },
+          {
+            "id": "N0236",
+            "label": "裹粉青团",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "食品",
+        "family": "面食",
+        "terms": [
+          "面",
+          "麵",
+          "面条",
+          "拌面",
+          "米线",
+          "粉丝"
+        ],
+        "variants": [
+          {
+            "id": "N0510",
+            "label": "碗装拌面",
+            "tier": 0
+          },
+          {
+            "id": "N0235",
+            "label": "配菜细面",
+            "tier": 1
+          },
+          {
+            "id": "N0659",
+            "label": "细面拼盘",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "食品",
+        "family": "米饭",
+        "terms": [
+          "饭",
+          "米饭",
+          "炒饭",
+          "盖饭"
+        ],
+        "variants": [
+          {
+            "id": "N0227",
+            "label": "白米饭",
+            "tier": 0
+          },
+          {
+            "id": "N0303",
+            "label": "配菜饭",
+            "tier": 1
+          },
+          {
+            "id": "N0527",
+            "label": "什锦饭",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "食品",
+        "family": "汤粥",
+        "terms": [
+          "汤",
+          "粥",
+          "羹",
+          "炖盅"
+        ],
+        "variants": [
+          {
+            "id": "N0523",
+            "label": "清汤",
+            "tier": 0
+          },
+          {
+            "id": "N0223",
+            "label": "金黄浓汤",
+            "tier": 1
+          },
+          {
+            "id": "N0340",
+            "label": "砂锅汤",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "食品",
+        "family": "禽肉",
+        "terms": [
+          "鸡",
+          "烧鸡",
+          "烤鸡",
+          "鸡腿",
+          "烤鸭"
+        ],
+        "variants": [
+          {
+            "id": "D0033",
+            "label": "烧鸡",
+            "tier": 0
+          },
+          {
+            "id": "N0818",
+            "label": "烤禽拼盘",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "食品",
+        "family": "鱼肴",
+        "terms": [
+          "鱼",
+          "烤鱼",
+          "鱼片",
+          "蒸鱼"
+        ],
+        "variants": [
+          {
+            "id": "N0949",
+            "label": "整鱼",
+            "tier": 0
+          },
+          {
+            "id": "N0350",
+            "label": "盘装银鱼",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "食品",
+        "family": "肉食",
+        "terms": [
+          "肉",
+          "肘子",
+          "排骨",
+          "卤味",
+          "牛排"
+        ],
+        "variants": [
+          {
+            "id": "N0200",
+            "label": "切片肉食",
+            "tier": 0
+          },
+          {
+            "id": "N0347",
+            "label": "碗装肉块",
+            "tier": 1
+          },
+          {
+            "id": "N0471",
+            "label": "酱汁切肉",
+            "tier": 1
+          },
+          {
+            "id": "N0658",
+            "label": "长盘肉食",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "食品",
+        "family": "豆腐",
+        "terms": [
+          "豆腐",
+          "豆干"
+        ],
+        "variants": [
+          {
+            "id": "N0533",
+            "label": "白豆腐",
+            "tier": 0
+          },
+          {
+            "id": "N0245",
+            "label": "煎豆腐块",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "食品",
+        "family": "丸子",
+        "terms": [
+          "丸子",
+          "肉丸",
+          "鱼丸",
+          "狮子头"
+        ],
+        "variants": [
+          {
+            "id": "N0344",
+            "label": "炸丸子",
+            "tier": 0
+          },
+          {
+            "id": "N0222",
+            "label": "清煮丸子",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "食品",
+        "family": "蔬菜",
+        "terms": [
+          "素菜",
+          "青菜",
+          "时蔬",
+          "拌菜",
+          "小炒"
+        ],
+        "variants": [
+          {
+            "id": "N0316",
+            "label": "炒豆芽",
+            "tier": 0
+          },
+          {
+            "id": "N0243",
+            "label": "什锦蔬菜",
+            "tier": 1
+          },
+          {
+            "id": "N0657",
+            "label": "时蔬拼盘",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "食品",
+        "family": "橘子",
+        "terms": [
+          "橘",
+          "橘子",
+          "柑橘"
+        ],
+        "variants": [
+          {
+            "id": "D0035",
+            "label": "橘子",
+            "tier": 0
+          }
+        ]
+      },
+      {
+        "category": "食品",
+        "family": "苹果",
+        "terms": [
+          "苹果",
+          "果盘"
+        ],
+        "variants": [
+          {
+            "id": "I22",
+            "label": "苹果盘",
+            "tier": 0
+          }
+        ]
+      },
+      {
+        "category": "食品",
+        "family": "柿子",
+        "terms": [
+          "柿子",
+          "甜柿"
+        ],
+        "variants": [
+          {
+            "id": "N0567",
+            "label": "柿子",
+            "tier": 0
+          }
+        ]
+      },
+      {
+        "category": "食品",
+        "family": "西瓜",
+        "terms": [
+          "西瓜",
+          "瓜瓤"
+        ],
+        "variants": [
+          {
+            "id": "N0087",
+            "label": "西瓜片",
+            "tier": 0
+          }
+        ]
+      },
+      {
+        "category": "食品",
+        "family": "茶饮",
+        "terms": [
+          "茶",
+          "清饮"
+        ],
+        "variants": [
+          {
+            "id": "N0203",
+            "label": "茶汤",
+            "tier": 0
+          },
+          {
+            "id": "N0354",
+            "label": "果茶",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "药品",
+        "family": "药丸",
+        "terms": [
+          "丹",
+          "丸",
+          "药丸",
+          "丹药"
+        ],
+        "variants": [
+          {
+            "id": "N0181",
+            "label": "散装药丸",
+            "tier": 0
+          },
+          {
+            "id": "N0199",
+            "label": "木盒药丸",
+            "tier": 1
+          },
+          {
+            "id": "N0198",
+            "label": "罐装药丸",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "药品",
+        "family": "药散",
+        "terms": [
+          "散",
+          "药粉",
+          "药散",
+          "散剂"
+        ],
+        "variants": [
+          {
+            "id": "N0171",
+            "label": "纸包棕色药散",
+            "tier": 0
+          },
+          {
+            "id": "N0172",
+            "label": "纸包青色药散",
+            "tier": 1
+          },
+          {
+            "id": "N0191",
+            "label": "白瓷瓶药粉",
+            "tier": 1
+          },
+          {
+            "id": "N0752",
+            "label": "方盒细粉",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "药品",
+        "family": "膏剂",
+        "terms": [
+          "膏",
+          "药膏",
+          "膏药",
+          "油膏",
+          "药泥"
+        ],
+        "variants": [
+          {
+            "id": "N0134",
+            "label": "素罐膏剂",
+            "tier": 0
+          },
+          {
+            "id": "N0327",
+            "label": "圆盒浅色膏",
+            "tier": 1
+          },
+          {
+            "id": "N0328",
+            "label": "圆盒朱色膏",
+            "tier": 1
+          },
+          {
+            "id": "N0135",
+            "label": "彩瓷膏罐",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "药品",
+        "family": "药液",
+        "terms": [
+          "露",
+          "酊",
+          "药水",
+          "药液",
+          "药剂",
+          "药汤",
+          "药酒"
+        ],
+        "variants": [
+          {
+            "id": "N0189",
+            "label": "细颈白瓶",
+            "tier": 0
+          },
+          {
+            "id": "N0168",
+            "label": "青花药瓶",
+            "tier": 1
+          },
+          {
+            "id": "N0193",
+            "label": "系签白瓷药瓶",
+            "tier": 1
+          },
+          {
+            "id": "N0217",
+            "label": "系签青瓷瓶",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "药品",
+        "family": "药罐",
+        "terms": [
+          "药罐",
+          "药坛",
+          "药瓮"
+        ],
+        "variants": [
+          {
+            "id": "N0251",
+            "label": "布封药罐",
+            "tier": 0
+          },
+          {
+            "id": "N0194",
+            "label": "红陶药罐",
+            "tier": 1
+          },
+          {
+            "id": "N0238",
+            "label": "绳封小罐",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "药品",
+        "family": "葫芦",
+        "terms": [
+          "药葫芦",
+          "葫芦"
+        ],
+        "variants": [
+          {
+            "id": "N0085",
+            "label": "素面葫芦",
+            "tier": 0
+          },
+          {
+            "id": "N0110",
+            "label": "系绳葫芦",
+            "tier": 1
+          },
+          {
+            "id": "N0197",
+            "label": "青瓷葫芦",
+            "tier": 2
+          }
+        ]
+      }
+    ]
   }
 }

@@ -1,0 +1,579 @@
+{
+  "version": 1,
+  "equipment": {
+    "不入流": {
+      "style": "粗布绑腿",
+      "icons": {
+        "冠冕": "gear-icons/equip_1100002.webp",
+        "胸甲": "gear-icons/equip_1100003.webp",
+        "腕甲": "gear-icons/equip_1100007.webp",
+        "腿甲": "gear-icons/equip_1100004.webp",
+        "环": "gear-icons/equip_1100008.webp",
+        "佩": "gear-icons/equip_1100009.webp",
+        "剑": "gear-icons/equip_900001.webp",
+        "枪": "gear-icons/equip_900002.webp",
+        "扇": "gear-icons/equip_900003.webp",
+        "陌刀": "gear-icons/equip_900006.webp",
+        "双刀": "gear-icons/equip_900007.webp",
+        "伞": "gear-icons/equip_900009.webp",
+        "绳镖": "gear-icons/equip_900010.webp",
+        "横刀": "gear-icons/equip_900011.webp",
+        "拳甲": "gear-icons/equip_900012.webp",
+        "弓": "gear-icons/equip_1300001.webp"
+      }
+    },
+    "三品": {
+      "style": "灰巾皮甲",
+      "icons": {
+        "冠冕": "gear-icons/equip_1100202.webp",
+        "胸甲": "gear-icons/equip_1100203.webp",
+        "腕甲": "gear-icons/equip_1100207.webp",
+        "腿甲": "gear-icons/equip_1100204.webp",
+        "环": "gear-icons/equip_1100208.webp",
+        "佩": "gear-icons/equip_1100209.webp",
+        "剑": "gear-icons/equip_900201.webp",
+        "枪": "gear-icons/equip_900202.webp",
+        "扇": "gear-icons/equip_900203.webp",
+        "陌刀": "gear-icons/equip_900206.webp",
+        "双刀": "gear-icons/equip_900207.webp",
+        "伞": "gear-icons/equip_900209.webp",
+        "绳镖": "gear-icons/equip_900210.webp",
+        "横刀": "gear-icons/equip_900211.webp",
+        "拳甲": "gear-icons/equip_900212.webp",
+        "弓": "gear-icons/equip_1300201.webp"
+      }
+    },
+    "二品": {
+      "style": "青铁轻甲",
+      "icons": {
+        "冠冕": "gear-icons/equip_1100402.webp",
+        "胸甲": "gear-icons/equip_1100403.webp",
+        "腕甲": "gear-icons/equip_1100407.webp",
+        "腿甲": "gear-icons/equip_1100404.webp",
+        "环": "gear-icons/equip_1100408.webp",
+        "佩": "gear-icons/equip_1100409.webp",
+        "剑": "gear-icons/equip_900401.webp",
+        "枪": "gear-icons/equip_900402.webp",
+        "扇": "gear-icons/equip_900403.webp",
+        "陌刀": "gear-icons/equip_900406.webp",
+        "双刀": "gear-icons/equip_900407.webp",
+        "伞": "gear-icons/equip_900409.webp",
+        "绳镖": "gear-icons/equip_900410.webp",
+        "横刀": "gear-icons/equip_900411.webp",
+        "拳甲": "gear-icons/equip_900412.webp",
+        "弓": "gear-icons/equip_1300401.webp"
+      }
+    },
+    "一品": {
+      "style": "铜纹札甲",
+      "icons": {
+        "冠冕": "gear-icons/equip_1101201.webp",
+        "胸甲": "gear-icons/equip_1101202.webp",
+        "腕甲": "gear-icons/equip_1101203.webp",
+        "腿甲": "gear-icons/equip_1101204.webp",
+        "环": "gear-icons/equip_1101207.webp",
+        "佩": "gear-icons/equip_1101205.webp",
+        "剑": "gear-icons/equip_1101212.webp",
+        "枪": "gear-icons/equip_1101213.webp",
+        "扇": "gear-icons/equip_1101214.webp",
+        "陌刀": "gear-icons/equip_1101215.webp",
+        "双刀": "gear-icons/equip_1101216.webp",
+        "伞": "gear-icons/equip_1101217.webp",
+        "绳镖": "gear-icons/equip_1101218.webp",
+        "横刀": "gear-icons/equip_1101219.webp",
+        "拳甲": "gear-icons/equip_1101220.webp",
+        "弓": "gear-icons/equip_1101208.webp"
+      }
+    },
+    "后天": {
+      "style": "靛蓝鳞甲",
+      "icons": {
+        "冠冕": "gear-icons/equip_1101701.webp",
+        "胸甲": "gear-icons/equip_1101702.webp",
+        "腕甲": "gear-icons/equip_1101703.webp",
+        "腿甲": "gear-icons/equip_1101704.webp",
+        "环": "gear-icons/equip_1101707.webp",
+        "佩": "gear-icons/equip_1101705.webp",
+        "剑": "gear-icons/equip_1101712.webp",
+        "枪": "gear-icons/equip_1101713.webp",
+        "扇": "gear-icons/equip_1101714.webp",
+        "陌刀": "gear-icons/equip_1101715.webp",
+        "双刀": "gear-icons/equip_1101716.webp",
+        "伞": "gear-icons/equip_1101717.webp",
+        "绳镖": "gear-icons/equip_1101718.webp",
+        "横刀": "gear-icons/equip_1101719.webp",
+        "拳甲": "gear-icons/equip_1101720.webp",
+        "弓": "gear-icons/equip_1101708.webp"
+      }
+    },
+    "先天": {
+      "style": "青玉银甲",
+      "icons": {
+        "冠冕": "gear-icons/equip_1101901.webp",
+        "胸甲": "gear-icons/equip_1101902.webp",
+        "腕甲": "gear-icons/equip_1101903.webp",
+        "腿甲": "gear-icons/equip_1101904.webp",
+        "环": "gear-icons/equip_1101907.webp",
+        "佩": "gear-icons/equip_1101905.webp",
+        "剑": "gear-icons/equip_1101912.webp",
+        "枪": "gear-icons/equip_1101913.webp",
+        "扇": "gear-icons/equip_1101914.webp",
+        "陌刀": "gear-icons/equip_1101915.webp",
+        "双刀": "gear-icons/equip_1101916.webp",
+        "伞": "gear-icons/equip_1101917.webp",
+        "绳镖": "gear-icons/equip_1101918.webp",
+        "横刀": "gear-icons/equip_1101919.webp",
+        "拳甲": "gear-icons/equip_1101920.webp",
+        "弓": "gear-icons/equip_1101908.webp"
+      }
+    }
+  },
+  "items": {
+    "小还丹": "bag-icons/N0169.webp",
+    "九花玉露丸": "bag-icons/N0198.webp",
+    "养生活血丹": "bag-icons/N0181.webp",
+    "养气散": "bag-icons/N0048.webp",
+    "陈年竹叶青": "bag-icons/D0117.webp",
+    "雪莲干瓣茶包": "bag-icons/I06.webp",
+    "瑞香斋金丝蜜枣": "bag-icons/N0306.webp",
+    "炉炭": "bag-icons/N1074.webp",
+    "山野铁矿材": "bag-icons/N0727.webp",
+    "常铁矿材": "bag-icons/N0726.webp",
+    "山野药材": "bag-icons/N1260.webp",
+    "寻常药材": "bag-icons/N0331.webp"
+  },
+  "files": {
+    "gear-icons/equip_1100002.webp": {
+      "bytes": 13806,
+      "sha256": "f46ac49b38316cc966e54122c761b6ea652307a457c39659cbf0537ef52d4c51"
+    },
+    "gear-icons/equip_1100003.webp": {
+      "bytes": 11832,
+      "sha256": "05195835834820b881305cb4421d8d2bd23fbe4863efcd4a5232dcb10a10b653"
+    },
+    "gear-icons/equip_1100004.webp": {
+      "bytes": 15788,
+      "sha256": "05aa869a06d439d60d58828ae191acae95047eb89f56ab7a29d688b2e744a019"
+    },
+    "gear-icons/equip_1100007.webp": {
+      "bytes": 12052,
+      "sha256": "9fd8dea27b4a2246594575218dd930f5b552ac3d6fa2564946bea90d6ff186e6"
+    },
+    "gear-icons/equip_1100008.webp": {
+      "bytes": 14948,
+      "sha256": "d98f3eb06e33bc496f8e2c239e07d2f4a2e7a1b6aebe9f2f405b27dec2e0251e"
+    },
+    "gear-icons/equip_1100009.webp": {
+      "bytes": 16640,
+      "sha256": "5a47fccffbc2d91ff49b0314131f151ee12216947842ae4a0c1290843adbd551"
+    },
+    "gear-icons/equip_1100202.webp": {
+      "bytes": 8490,
+      "sha256": "15213dd0310d8f378383639cb2d9c5716fe94e3ee140105b1cfab59221499bc7"
+    },
+    "gear-icons/equip_1100203.webp": {
+      "bytes": 11564,
+      "sha256": "2186ef4cd076f64ad9051f89cfa145ff373e9d594cba79ffa459bdea7f48b069"
+    },
+    "gear-icons/equip_1100204.webp": {
+      "bytes": 16544,
+      "sha256": "3437021122e2ebfe8d9ff887f5191d1a9ff2669ec48e2bee1f292df5f496add6"
+    },
+    "gear-icons/equip_1100207.webp": {
+      "bytes": 10808,
+      "sha256": "af0066b39826fd514820f3df9bb5055330c234461fa4973df051c062741e958e"
+    },
+    "gear-icons/equip_1100208.webp": {
+      "bytes": 13422,
+      "sha256": "c307b26b9430f63484e86db7331a59e3f33db9ddd2dc49879f7f88e89ddf5f2b"
+    },
+    "gear-icons/equip_1100209.webp": {
+      "bytes": 10088,
+      "sha256": "20afb51e461e9142f8b22aa0bd10de7bf6504866efde5b3272356115405ba1ed"
+    },
+    "gear-icons/equip_1100402.webp": {
+      "bytes": 16038,
+      "sha256": "515ebbcb7f5682a9ef643b73ccbb497e811f8cf16e6afbd88540c90ae184a597"
+    },
+    "gear-icons/equip_1100403.webp": {
+      "bytes": 11730,
+      "sha256": "27f0de262def51bec22bda549b1c31685d6b64a38c9c9a007ae59aeab9d0b22d"
+    },
+    "gear-icons/equip_1100404.webp": {
+      "bytes": 16076,
+      "sha256": "fa094f20e77de773653ddbd690b1be00fb92bba5e1c66669e68321bae5803eb2"
+    },
+    "gear-icons/equip_1100407.webp": {
+      "bytes": 10770,
+      "sha256": "74296323cead569a637ccf1ae46bd7a2aa694dc515750d05aaf63b293058cbef"
+    },
+    "gear-icons/equip_1100408.webp": {
+      "bytes": 11430,
+      "sha256": "f9158f50b3c3a3128d259ad661ecd8ab618047557370d1f9e1c8e3ad5641fc5f"
+    },
+    "gear-icons/equip_1100409.webp": {
+      "bytes": 15338,
+      "sha256": "95a8c8b29832d32eb772440aa8ef56dfb48218bed6c0111fd45ad3701e439668"
+    },
+    "gear-icons/equip_1101201.webp": {
+      "bytes": 12848,
+      "sha256": "514276559aaf7118306ae7c7ce6098a73aa39f674c0526969405fc934072cc94"
+    },
+    "gear-icons/equip_1101202.webp": {
+      "bytes": 13246,
+      "sha256": "2c0a5efdff77605d29d90d8f181e2bf0eff49488ca3fee987e9f2e465daeb346"
+    },
+    "gear-icons/equip_1101203.webp": {
+      "bytes": 11722,
+      "sha256": "768744fc6cfab1d2f1f6c264f204c8a5d35ba571924e83a42526375f29357cfc"
+    },
+    "gear-icons/equip_1101204.webp": {
+      "bytes": 16864,
+      "sha256": "7cc540d1324aac9cd5aee36c01cae4193234c9dbb7b63a1eef61c7e65e5d07ad"
+    },
+    "gear-icons/equip_1101205.webp": {
+      "bytes": 19830,
+      "sha256": "edf1c14eff5cd1f930afcaea40aa5edf5f696b62b0b5bc1d7791ade74aec31df"
+    },
+    "gear-icons/equip_1101207.webp": {
+      "bytes": 12390,
+      "sha256": "474e174ca787ec3be625504ac148f2825e9b4fe1a00e50cace13a7ecdfd27ae2"
+    },
+    "gear-icons/equip_1101208.webp": {
+      "bytes": 10014,
+      "sha256": "9c7219ef270137eec0d602fca6d042fed5190fae7f2fb43f388f966559014664"
+    },
+    "gear-icons/equip_1101212.webp": {
+      "bytes": 13548,
+      "sha256": "4b865c9400052f7c01d6d74c65d51934d71a48def27e5c2d71c4fe736042410a"
+    },
+    "gear-icons/equip_1101213.webp": {
+      "bytes": 10154,
+      "sha256": "b4a21b3d0c2a7af9668c4d2512c6b8bb14031b31a175c0039ac927a45910c068"
+    },
+    "gear-icons/equip_1101214.webp": {
+      "bytes": 19066,
+      "sha256": "4b6ea35026a28c7e971752451da392855fadf7b3e5d6ecd3d4fcc0638564fd0a"
+    },
+    "gear-icons/equip_1101215.webp": {
+      "bytes": 8762,
+      "sha256": "b95115827bcc83d71c538079c1b0a5b0a8623ab57cb775825adf126d04dd8137"
+    },
+    "gear-icons/equip_1101216.webp": {
+      "bytes": 11982,
+      "sha256": "817b8f2cc7d128c359b64b8e1e13364943f9aa5b292562161be9a583383dbf6d"
+    },
+    "gear-icons/equip_1101217.webp": {
+      "bytes": 12814,
+      "sha256": "da435b1e3069349860407ac6e8c77761ce3abdbc4d86961f3390c86ddf22f793"
+    },
+    "gear-icons/equip_1101218.webp": {
+      "bytes": 12938,
+      "sha256": "786c306ac9498047979becf26f0ec13c7aaad3a0f34ed7cf364e292be63ab5c6"
+    },
+    "gear-icons/equip_1101219.webp": {
+      "bytes": 12710,
+      "sha256": "dad1078339071840b644b4476eb7929c897e704b7e45528de36a4d04379d57ed"
+    },
+    "gear-icons/equip_1101220.webp": {
+      "bytes": 12180,
+      "sha256": "e2b934e48d79b1185848c3682c92c5276d1d08e666a16adc9bcaa067d53d4ffc"
+    },
+    "gear-icons/equip_1101701.webp": {
+      "bytes": 18356,
+      "sha256": "e4c6311ed9becaf1418a50827c27e98562f9c696f563faae26e1d249b661bbe9"
+    },
+    "gear-icons/equip_1101702.webp": {
+      "bytes": 12954,
+      "sha256": "50764fed1a7f2df2eb944c3a00a65ac31f257f0ecd64c473dea02f3f654d236d"
+    },
+    "gear-icons/equip_1101703.webp": {
+      "bytes": 12068,
+      "sha256": "34df42694f9ad42a3ddf8206f6a8e032b62263541a328ac272519effd4189156"
+    },
+    "gear-icons/equip_1101704.webp": {
+      "bytes": 11578,
+      "sha256": "fdb3066a49f54eedf1ad779792b9f3e492c3352893143015ef9f9bc39a9f3bb9"
+    },
+    "gear-icons/equip_1101705.webp": {
+      "bytes": 14190,
+      "sha256": "884f30864f6990105101a8a51f74f6aa6b060a567e08b557849fe416160f0e22"
+    },
+    "gear-icons/equip_1101707.webp": {
+      "bytes": 13058,
+      "sha256": "be47cec55df6f93f7ecfc0337b90d4a1e7822f8ae0d2ad44ca4277c54b541e3e"
+    },
+    "gear-icons/equip_1101708.webp": {
+      "bytes": 9216,
+      "sha256": "9a42c8ec9b0d802b0d5e3d2c6f9c54eecd7cec4d821dcf53e8ba70319ed11ee3"
+    },
+    "gear-icons/equip_1101712.webp": {
+      "bytes": 12650,
+      "sha256": "895f873f8433e32d4acf160f08c9678768f7d3f339e9252079ebdb36bff5886b"
+    },
+    "gear-icons/equip_1101713.webp": {
+      "bytes": 12460,
+      "sha256": "b1cdb2ca206545225080e726f325795dc48e71d49605a6ab02f542093d93702c"
+    },
+    "gear-icons/equip_1101714.webp": {
+      "bytes": 19708,
+      "sha256": "ef7b7ed3f192be9a9744a2cbaf5dd1ec5aba39017da16ece5e941e618578f912"
+    },
+    "gear-icons/equip_1101715.webp": {
+      "bytes": 8764,
+      "sha256": "30d87f54c861d434aec1b373eacca839d37368459bd5400928405cc0052b35e6"
+    },
+    "gear-icons/equip_1101716.webp": {
+      "bytes": 12236,
+      "sha256": "ee5860a0c8982a896ce798de55e2ca120f3c7b8a38d7ef98af7eb987e0f276f9"
+    },
+    "gear-icons/equip_1101717.webp": {
+      "bytes": 10970,
+      "sha256": "55ec59f9adc48a09ef409633f0c2be5f6c179cd54c84ff1df1c474b9bdcf1df6"
+    },
+    "gear-icons/equip_1101718.webp": {
+      "bytes": 12118,
+      "sha256": "45479b45b993ba1462e3f5a3788e9a89faf2e86a639a9b55589e8dce307189c0"
+    },
+    "gear-icons/equip_1101719.webp": {
+      "bytes": 14328,
+      "sha256": "c368e797ae553b4edee31935a9e2b21ccf1cac9d7a0618ee3b61741e15a32683"
+    },
+    "gear-icons/equip_1101720.webp": {
+      "bytes": 12072,
+      "sha256": "ae140d9307a70ab2b04205d53a8c6433e799e9ea675fe93b080e4937a60755b6"
+    },
+    "gear-icons/equip_1101901.webp": {
+      "bytes": 13870,
+      "sha256": "c57443c82e668ab988ac4c3c3a818d1401425e0f57dc6de2252fb5aab710792e"
+    },
+    "gear-icons/equip_1101902.webp": {
+      "bytes": 13584,
+      "sha256": "5dfc7261387042dadb06e0e52686a9cf7422eb647280d75d2ad7a460dd07d8a2"
+    },
+    "gear-icons/equip_1101903.webp": {
+      "bytes": 12268,
+      "sha256": "777248beba877cdbc8607315f3d1eae41247732ace3d6e984e026e1d4aefcf45"
+    },
+    "gear-icons/equip_1101904.webp": {
+      "bytes": 17914,
+      "sha256": "88cc8093754785e70fd496a43772f99f07abe59f91c72c0e4ab61ff5be1a8ba4"
+    },
+    "gear-icons/equip_1101905.webp": {
+      "bytes": 15280,
+      "sha256": "ff85a855413c2ec4f274368c65d36e2fcef21ab3cfc96295f2f2b094c255b657"
+    },
+    "gear-icons/equip_1101907.webp": {
+      "bytes": 15926,
+      "sha256": "2d89ffad1cd6e878129a2a8f04dbcb122bf7d0e06e10da5df627dc5c2cbaff3c"
+    },
+    "gear-icons/equip_1101908.webp": {
+      "bytes": 10186,
+      "sha256": "203022ddc17c758f647fd969a578336f9c5a9ddaab2f49aa884cc12275d36117"
+    },
+    "gear-icons/equip_1101912.webp": {
+      "bytes": 13258,
+      "sha256": "744d139fc62dbf9c86504e780ff3406ace8ff2be2873abc713d89344beed1c35"
+    },
+    "gear-icons/equip_1101913.webp": {
+      "bytes": 10464,
+      "sha256": "87953a92b761b1d134bf374e0ea5b4a6907b8aaa49346144d654cfada1c36b88"
+    },
+    "gear-icons/equip_1101914.webp": {
+      "bytes": 19334,
+      "sha256": "bff06a18129d599e3515d33d749a89867e8fb04d78e292a9e83013b8e1ed8eb6"
+    },
+    "gear-icons/equip_1101915.webp": {
+      "bytes": 8556,
+      "sha256": "db8eca6bf7490ebf29c832f91171aae25940265e4e848222126e5046187a3cde"
+    },
+    "gear-icons/equip_1101916.webp": {
+      "bytes": 12782,
+      "sha256": "fa8f4349105af86f9fd9b53a0fc133257a65da463179402120dfca7c88e3dcba"
+    },
+    "gear-icons/equip_1101917.webp": {
+      "bytes": 11410,
+      "sha256": "79307da41cac62fcf00790304510d94edff4e0f19f6f56628e512e35583f0434"
+    },
+    "gear-icons/equip_1101918.webp": {
+      "bytes": 12164,
+      "sha256": "e6a60a75e38a2346a6984cc102b95de17563c752009a91b9ce50a0849b47bb7b"
+    },
+    "gear-icons/equip_1101919.webp": {
+      "bytes": 11970,
+      "sha256": "5973fd0fd831690d3397afd95f43a26819b8e79de19316dd8ce17eb43bd456f4"
+    },
+    "gear-icons/equip_1101920.webp": {
+      "bytes": 10722,
+      "sha256": "7ee1997b3863268f5fc7d984291c3bd33768f74615b8a7c4732f6d5d57ef55b9"
+    },
+    "gear-icons/equip_1300001.webp": {
+      "bytes": 10734,
+      "sha256": "e40ee17f83ee9d8052b7e2bb77edd4ab8da6ba194ee3e6b928d89e353b0708b8"
+    },
+    "gear-icons/equip_1300201.webp": {
+      "bytes": 10248,
+      "sha256": "9beed9c014139d1ab8ff4fbca207369d46fd48eccc6e297b077aca5fa0a56322"
+    },
+    "gear-icons/equip_1300401.webp": {
+      "bytes": 9238,
+      "sha256": "fd6469420b59d0fa0be86fd1dd53c8f0540ff58c86ed3793276ee8438a4725bf"
+    },
+    "gear-icons/equip_900001.webp": {
+      "bytes": 9864,
+      "sha256": "b3d3ed427692c5955221b21148429590a200e7c62433618d3706f1cb211c8736"
+    },
+    "gear-icons/equip_900002.webp": {
+      "bytes": 8804,
+      "sha256": "0977ba368124edb96f750299fd49cc34af6c85697477ae142a274d6769b94b13"
+    },
+    "gear-icons/equip_900003.webp": {
+      "bytes": 14300,
+      "sha256": "a0d34445a4965221dd904ed17b7ea22f9895030d8acebaa8e39c4fd2b73eb812"
+    },
+    "gear-icons/equip_900006.webp": {
+      "bytes": 10440,
+      "sha256": "7ee2b7d46e697dc66bb40dc49aa25d51a2909d07ff6c6059dbbf58de0bef1594"
+    },
+    "gear-icons/equip_900007.webp": {
+      "bytes": 9742,
+      "sha256": "47fb967cc4899b60ed84b44a893f248589199cbd477c9d55d9dfcbc8567ec235"
+    },
+    "gear-icons/equip_900009.webp": {
+      "bytes": 10328,
+      "sha256": "2a9d8748e78243f2d3cb329439f8c9d6cdd85b63294b8004e25c12850260091f"
+    },
+    "gear-icons/equip_900010.webp": {
+      "bytes": 12124,
+      "sha256": "e2939585e4f4e997f9be501c145190efa4ac29a03447b8771193bf6c82068634"
+    },
+    "gear-icons/equip_900011.webp": {
+      "bytes": 12380,
+      "sha256": "204d7e3e86898627a8fc6090ac4b9b0787dcb82b273ccc08eb614d46d63f71fd"
+    },
+    "gear-icons/equip_900012.webp": {
+      "bytes": 11232,
+      "sha256": "c564baa8b4715ae1cc2dc3c76be115d302dbed6994fe291ff00881e8b40519e3"
+    },
+    "gear-icons/equip_900201.webp": {
+      "bytes": 12226,
+      "sha256": "5a50b426703605c9cc0c86966e88284ad6cb8c77a39c29c6f2e5ad4a1ec3e678"
+    },
+    "gear-icons/equip_900202.webp": {
+      "bytes": 8708,
+      "sha256": "fc139d427d4b101318bd263383607d6b2a9e3edb4bdfa475e8eb73c09f50aed0"
+    },
+    "gear-icons/equip_900203.webp": {
+      "bytes": 16614,
+      "sha256": "3e8d5a20ff67019099163e7e8e5730245e5b0d6045b0f3a66e54dd3067d6170d"
+    },
+    "gear-icons/equip_900206.webp": {
+      "bytes": 7642,
+      "sha256": "eff65421d4cce0f7ebd2a4903d7a8c8d18e89ac1dc90bda8b1de9c025636a76d"
+    },
+    "gear-icons/equip_900207.webp": {
+      "bytes": 12690,
+      "sha256": "18d114b3f6fa027fa884922cdfcf2b7909641f6078d130209ac14901c456bea5"
+    },
+    "gear-icons/equip_900209.webp": {
+      "bytes": 9276,
+      "sha256": "3e528793f3cf05996231bfcae06f331ce192b494ce2620830a082fac3ec668f5"
+    },
+    "gear-icons/equip_900210.webp": {
+      "bytes": 13842,
+      "sha256": "a469d0b51164d462c7a67331059914ebc6be2e719df1fb47a96b876057fa754a"
+    },
+    "gear-icons/equip_900211.webp": {
+      "bytes": 13548,
+      "sha256": "3cdd58fe0f11bbb46938a0399666f468a6325a3c0ba3d8ff6023e7390ca14539"
+    },
+    "gear-icons/equip_900212.webp": {
+      "bytes": 11856,
+      "sha256": "d79f86e52c98ff99ce0df54006a59a0b78e12776432f577f99c2122142722701"
+    },
+    "gear-icons/equip_900401.webp": {
+      "bytes": 9362,
+      "sha256": "2cd43d793c6467475419cdad946e29a34427a031eb9a29d5066206d3ca478343"
+    },
+    "gear-icons/equip_900402.webp": {
+      "bytes": 9950,
+      "sha256": "704010d137f25c424a85c3aed00a46361963d4dc9bf2273d80afd4fcf0cc3ce1"
+    },
+    "gear-icons/equip_900403.webp": {
+      "bytes": 17700,
+      "sha256": "daf02d71a7aa9a2c3871fb630357206206fde0ee50068e988261c1409ddac43d"
+    },
+    "gear-icons/equip_900406.webp": {
+      "bytes": 8064,
+      "sha256": "f6d6b3b7463c8cf7fc4523f91c359f11573f8ce44b7ae5f3bb06f2437af811e5"
+    },
+    "gear-icons/equip_900407.webp": {
+      "bytes": 11670,
+      "sha256": "55b8445403365176a2b18327d46fbf29d8db2af51111f8c1a203432a51f323e8"
+    },
+    "gear-icons/equip_900409.webp": {
+      "bytes": 11934,
+      "sha256": "ae9cab57bb71c7479351f051c55451b5687fa757fc173d32b97c8b408b2cfe2c"
+    },
+    "gear-icons/equip_900410.webp": {
+      "bytes": 11776,
+      "sha256": "45027fed572b4ade0d9851c4e8c3ef2539b2c695d60b5e5a7c27c33f7eb4e23a"
+    },
+    "gear-icons/equip_900411.webp": {
+      "bytes": 13442,
+      "sha256": "a3ea4561cba6597b4b6a4ad67d831637fa37b37d3bd649b8b69a9be4c2b87cb2"
+    },
+    "gear-icons/equip_900412.webp": {
+      "bytes": 11692,
+      "sha256": "532365c45a643ecf603f6da9895888dba676d38c460839ddfe3b6157fb879781"
+    },
+    "bag-icons/D0117.webp": {
+      "bytes": 13956,
+      "sha256": "e99390f1e471e23d5765cd15d95fadf121d3f6e6798f54f71e0b080fb111f4c6"
+    },
+    "bag-icons/I06.webp": {
+      "bytes": 19110,
+      "sha256": "7cd5f194cda509982e0db95b0ff76d3241e2b6d4eeb013815dc5c5755555cd81"
+    },
+    "bag-icons/N0048.webp": {
+      "bytes": 19422,
+      "sha256": "0d3359920dfdb3ad7db1e7adecfb6953b408891d3cbb9728df0d348b7e5fb9ba"
+    },
+    "bag-icons/N0169.webp": {
+      "bytes": 12790,
+      "sha256": "b549d1d3dc8b294537c42bd637da5669d6f4dbd7a945bcae2575a04d8935ee89"
+    },
+    "bag-icons/N0181.webp": {
+      "bytes": 11958,
+      "sha256": "24e316e3fe478ca9615cdad036d175bc5a261e05daeaee11358dc05f60f652e8"
+    },
+    "bag-icons/N0198.webp": {
+      "bytes": 18616,
+      "sha256": "00af7251e40dbcfddfe4beabb5ee2d942eb15a47c83ee02fd643c487ffb28f8a"
+    },
+    "bag-icons/N0306.webp": {
+      "bytes": 17648,
+      "sha256": "4a62bb17cbaaba40799bafe80a9b8dd5efd6eb1c3e750e3b5aeb59cfa6c00bb0"
+    },
+    "bag-icons/N0331.webp": {
+      "bytes": 15294,
+      "sha256": "8b963ee4f6b3211e57b8ba64ae26fc9b366735088c7badd27a0a2e301c74eb3e"
+    },
+    "bag-icons/N0726.webp": {
+      "bytes": 11428,
+      "sha256": "6d1b8ea7ddf2695a98cbab40eae65ff8c27cf7a892bd2b45fccbda0873db676e"
+    },
+    "bag-icons/N0727.webp": {
+      "bytes": 14550,
+      "sha256": "680133848d7bd67fb790949a33c4f6bf978ae36b4c9ed4eb2ce61fe9f49eb77f"
+    },
+    "bag-icons/N1074.webp": {
+      "bytes": 16596,
+      "sha256": "8c2dbc8aa582d173eb933dfc3d1510284557d05e310af08dd48e5c59eeef5bd3"
+    },
+    "bag-icons/N1260.webp": {
+      "bytes": 18374,
+      "sha256": "9e9e62c3e1d066b146973a0bb8cc2e882173eecb673212aa3fcd903a04804dce"
+    }
+  }
+}

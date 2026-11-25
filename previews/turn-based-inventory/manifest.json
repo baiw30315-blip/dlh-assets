@@ -822,6 +822,126 @@
     "bag-icons/N0197.webp": {
       "bytes": 16432,
       "sha256": "100ed70eb79f519789f03a6c14a4e9c64efafcffbba42998d2a33df6d9691d9c"
+    },
+    "bag-icons/N0835.webp": {
+      "bytes": 26882,
+      "sha256": "bbd55a3f8a3e26b050a7fb1adaf78d18a350a973e1ee6586d1e8680f5c44a12f"
+    },
+    "bag-icons/N1085.webp": {
+      "bytes": 23680,
+      "sha256": "7e2b02a52d89bba4959146b14c300f4dede64be4ff9af18bb1dd9955029c0c7d"
+    },
+    "bag-icons/N1106.webp": {
+      "bytes": 22458,
+      "sha256": "4dde37053ad56675ab2fdbef0baf584c4b0cfb1f607fed57c3a80483f61818b9"
+    },
+    "bag-icons/N0488.webp": {
+      "bytes": 27614,
+      "sha256": "e6c58c4ecf8d68c6d05b19c4c89333471f3b18a4f236910b4389e339cbdffac0"
+    },
+    "bag-icons/N1212.webp": {
+      "bytes": 20344,
+      "sha256": "13c087db9e302fc3d136bef60189a582703171219c9e6a0203551a70961aff8a"
+    },
+    "bag-icons/N0082.webp": {
+      "bytes": 21416,
+      "sha256": "f25881e82659e9715ce91627165e123cb5f748e1740b43f6b477949048e77a74"
+    },
+    "bag-icons/N0359.webp": {
+      "bytes": 19644,
+      "sha256": "e366c971b0c8f58d9427450b8c677af397426834c3e4749c265b72374b0cf61e"
+    },
+    "bag-icons/N0699.webp": {
+      "bytes": 20440,
+      "sha256": "3e4770d8f7358691b1f9ae848557d184b1e9d4dae522b3afab49ef89fb48fd89"
+    },
+    "bag-icons/N1178.webp": {
+      "bytes": 22804,
+      "sha256": "e529f8cb0d95d6957b62642e50748cd0ef55b122407a938b07239e3e10c1f787"
+    },
+    "bag-icons/N0710.webp": {
+      "bytes": 21162,
+      "sha256": "f16c8e415ccc4c5ed89bbe101be8c468f420affebf0de202dc2badc604d90b2d"
+    },
+    "bag-icons/N0700.webp": {
+      "bytes": 19562,
+      "sha256": "1e25e4ecd41ce082fc3e4a1f460a10dabcfd334dc5baadf0263f1be169ad19e2"
+    },
+    "bag-icons/N0764.webp": {
+      "bytes": 25304,
+      "sha256": "ec35cd22f7bf23a0c0c82d358a573026557ef858b05c3d2779dfed7a91bcfd9d"
+    },
+    "bag-icons/N0708.webp": {
+      "bytes": 20866,
+      "sha256": "2aa6a11424d59a158a7a34acda3ec0fe6fc5e9ac17d16b043adacfba9b459ef8"
+    },
+    "bag-icons/N1113.webp": {
+      "bytes": 17948,
+      "sha256": "7f5607988c8172c7417d7e28229b3f8b7a26f4e168174dde45afcaf66871cd5b"
+    },
+    "bag-icons/N0784.webp": {
+      "bytes": 22108,
+      "sha256": "11349f9e1397433ccf6ed7970d7b23df01d2b4e383114553525454dbe3789e18"
+    },
+    "bag-icons/N0852.webp": {
+      "bytes": 18506,
+      "sha256": "cf07f0e8d2f1f8c0130937abca91df27d529030dcd152f3313fe97157a805330"
+    },
+    "bag-icons/N1114.webp": {
+      "bytes": 16364,
+      "sha256": "a9a925469e836039ff5af8d927420c94b3a0ba01f6cbb8070b2550b585688679"
+    },
+    "bag-icons/N1118.webp": {
+      "bytes": 21446,
+      "sha256": "cc5140d3a0580d884d34fb0e3b092035ab35a5db08c7c7cc3b9643e9fa56d6ae"
+    },
+    "bag-icons/N0851.webp": {
+      "bytes": 23372,
+      "sha256": "3255f5f08458d06ecf7dddf2158b25591e0f401ac64be726c5a9ecc4779720d5"
+    },
+    "bag-icons/N0728.webp": {
+      "bytes": 13906,
+      "sha256": "1bd8422048d8a81ff28c6e134a2bad01de3f00972e9e1f1af3c5a7dee36b7d72"
+    },
+    "bag-icons/N1014.webp": {
+      "bytes": 24978,
+      "sha256": "27cec492968a84d5f3c2903b22a6c256269f8d9837e2829f2726b1f227a0a8de"
+    },
+    "bag-icons/N1148.webp": {
+      "bytes": 17508,
+      "sha256": "6fe45b307a824516996cd08ea914767810a9e819ecf7c3098c447b5eef291e05"
+    },
+    "bag-icons/N1155.webp": {
+      "bytes": 20640,
+      "sha256": "3b2ace714ecb85912ca7adae75e633f723eeac95a47e0dcb2e5d843afe76d4ee"
+    },
+    "bag-icons/N0704.webp": {
+      "bytes": 14996,
+      "sha256": "ceb3dd5c9209445faebfdee05f90896149790929b48df2ff0674621c911a1452"
+    },
+    "bag-icons/N1251.webp": {
+      "bytes": 19860,
+      "sha256": "8f1b99521191cb11dc66c9dbf934459e72f30e4d5d269d9fed21043d7fe0296a"
+    },
+    "bag-icons/N1258.webp": {
+      "bytes": 17628,
+      "sha256": "29097615596d65cbad952b72ab114f03d012c7d55cb46f84463c91af70866e75"
+    },
+    "bag-icons/N1156.webp": {
+      "bytes": 20078,
+      "sha256": "faa684e4ac57d522b6f85bd5548cee9b5a4180d4d192058ef82d56c115b58f1c"
+    },
+    "bag-icons/N1235.webp": {
+      "bytes": 9844,
+      "sha256": "03c2260b4697cd5fb7fbe0a2d4d06a3a6a4167f2e5049e7a3ec2f48ec6686b19"
+    },
+    "bag-icons/N1236.webp": {
+      "bytes": 9420,
+      "sha256": "6a4a07df6896533c708f5096a474acbd4e6e4563f988bbf33e378cbb4e8e1689"
+    },
+    "bag-icons/N1207.webp": {
+      "bytes": 17492,
+      "sha256": "12513dbca41b526e03ef7b1c75c7e0937c23e57f5aa866ea6435900101c11b94"
     }
   },
   "itemCatalog": {
@@ -893,6 +1013,41 @@
       "素面葫芦": "bag-icons/N0085.webp",
       "系绳葫芦": "bag-icons/N0110.webp",
       "青瓷葫芦": "bag-icons/N0197.webp"
+    },
+    "材料": {
+      "青草叶": "bag-icons/N0835.webp",
+      "药草枝叶": "bag-icons/N1260.webp",
+      "银叶药草": "bag-icons/N1085.webp",
+      "粉色药花": "bag-icons/N1106.webp",
+      "白色花枝": "bag-icons/N0488.webp",
+      "冰蓝莲花": "bag-icons/N1212.webp",
+      "干根束": "bag-icons/N0331.webp",
+      "带叶根药": "bag-icons/N0082.webp",
+      "赤色参根": "bag-icons/N0359.webp",
+      "黑色矿块": "bag-icons/N0726.webp",
+      "银黑矿石": "bag-icons/N0699.webp",
+      "深色晶矿": "bag-icons/N1178.webp",
+      "赤色矿石": "bag-icons/N0710.webp",
+      "铜绿矿石": "bag-icons/N0700.webp",
+      "铜绿矿块": "bag-icons/N0764.webp",
+      "土黄矿石": "bag-icons/N0708.webp",
+      "金纹矿石": "bag-icons/N1113.webp",
+      "金色矿块": "bag-icons/N0784.webp",
+      "淡色晶石": "bag-icons/N0852.webp",
+      "冰蓝晶矿": "bag-icons/N1114.webp",
+      "紫色晶矿": "bag-icons/N1118.webp",
+      "粗矿石": "bag-icons/N0851.webp",
+      "深灰矿堆": "bag-icons/N0728.webp",
+      "金脉原矿": "bag-icons/N1014.webp",
+      "浅色原木": "bag-icons/N1148.webp",
+      "整齐原木": "bag-icons/N1155.webp",
+      "深色硬木": "bag-icons/N0704.webp",
+      "分叉树枝": "bag-icons/N1251.webp",
+      "细枝束": "bag-icons/N1258.webp",
+      "粗枝束": "bag-icons/N1156.webp",
+      "粗木板": "bag-icons/N1235.webp",
+      "平整木板": "bag-icons/N1236.webp",
+      "叠放木板": "bag-icons/N1207.webp"
     }
   },
   "itemIconRules": {
@@ -1523,6 +1678,349 @@
           {
             "id": "N0197",
             "label": "青瓷葫芦",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "材料",
+        "family": "草叶",
+        "terms": [
+          "草药",
+          "药材",
+          "药草",
+          "叶材",
+          "药叶",
+          "薄荷",
+          "艾叶",
+          "紫苏",
+          "天葵",
+          "草叶"
+        ],
+        "variants": [
+          {
+            "id": "N0835",
+            "label": "青草叶",
+            "tier": 0
+          },
+          {
+            "id": "N1260",
+            "label": "药草枝叶",
+            "tier": 1
+          },
+          {
+            "id": "N1085",
+            "label": "银叶药草",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "材料",
+        "family": "花药",
+        "terms": [
+          "药花",
+          "花药",
+          "金银花",
+          "红花",
+          "雪莲",
+          "莲花",
+          "芍药",
+          "金盏花",
+          "菊花",
+          "花瓣"
+        ],
+        "variants": [
+          {
+            "id": "N1106",
+            "label": "粉色药花",
+            "tier": 0
+          },
+          {
+            "id": "N0488",
+            "label": "白色花枝",
+            "tier": 1
+          },
+          {
+            "id": "N1212",
+            "label": "冰蓝莲花",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "材料",
+        "family": "根药",
+        "terms": [
+          "药根",
+          "根须",
+          "根茎",
+          "人参",
+          "血参",
+          "山参",
+          "党参",
+          "黄精",
+          "黄芪",
+          "甘草",
+          "当归",
+          "首乌"
+        ],
+        "variants": [
+          {
+            "id": "N0331",
+            "label": "干根束",
+            "tier": 0
+          },
+          {
+            "id": "N0082",
+            "label": "带叶根药",
+            "tier": 1
+          },
+          {
+            "id": "N0359",
+            "label": "赤色参根",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "材料",
+        "family": "铁矿",
+        "terms": [
+          "铁矿",
+          "铁精",
+          "铁石",
+          "玄铁",
+          "寒铁",
+          "陨铁",
+          "黑铁",
+          "磁铁矿"
+        ],
+        "variants": [
+          {
+            "id": "N0726",
+            "label": "黑色矿块",
+            "tier": 0
+          },
+          {
+            "id": "N0699",
+            "label": "银黑矿石",
+            "tier": 1
+          },
+          {
+            "id": "N1178",
+            "label": "深色晶矿",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "材料",
+        "family": "铜矿",
+        "terms": [
+          "铜矿",
+          "铜石",
+          "赤铜",
+          "紫铜",
+          "青铜矿",
+          "孔雀石"
+        ],
+        "variants": [
+          {
+            "id": "N0710",
+            "label": "赤色矿石",
+            "tier": 0
+          },
+          {
+            "id": "N0700",
+            "label": "铜绿矿石",
+            "tier": 1
+          },
+          {
+            "id": "N0764",
+            "label": "铜绿矿块",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "材料",
+        "family": "金矿",
+        "terms": [
+          "金矿",
+          "金砂",
+          "金沙",
+          "金矿砂"
+        ],
+        "variants": [
+          {
+            "id": "N0708",
+            "label": "土黄矿石",
+            "tier": 0
+          },
+          {
+            "id": "N1113",
+            "label": "金纹矿石",
+            "tier": 1
+          },
+          {
+            "id": "N0784",
+            "label": "金色矿块",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "材料",
+        "family": "晶矿",
+        "terms": [
+          "水晶",
+          "晶矿",
+          "灵晶",
+          "晶石"
+        ],
+        "variants": [
+          {
+            "id": "N0852",
+            "label": "淡色晶石",
+            "tier": 0
+          },
+          {
+            "id": "N1114",
+            "label": "冰蓝晶矿",
+            "tier": 1
+          },
+          {
+            "id": "N1118",
+            "label": "紫色晶矿",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "材料",
+        "family": "原矿",
+        "terms": [
+          "矿石",
+          "矿料",
+          "矿材",
+          "原矿",
+          "矿砂"
+        ],
+        "variants": [
+          {
+            "id": "N0851",
+            "label": "粗矿石",
+            "tier": 0
+          },
+          {
+            "id": "N0728",
+            "label": "深灰矿堆",
+            "tier": 1
+          },
+          {
+            "id": "N1014",
+            "label": "金脉原矿",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "材料",
+        "family": "原木",
+        "terms": [
+          "木料",
+          "木材",
+          "原木",
+          "圆木",
+          "木段",
+          "木芯",
+          "木心",
+          "松木",
+          "杉木",
+          "桐木",
+          "榆木",
+          "楠木",
+          "硬木",
+          "沉香木",
+          "檀木",
+          "乌木",
+          "桃木",
+          "柏木",
+          "铁木",
+          "木坯"
+        ],
+        "variants": [
+          {
+            "id": "N1148",
+            "label": "浅色原木",
+            "tier": 0
+          },
+          {
+            "id": "N1155",
+            "label": "整齐原木",
+            "tier": 1
+          },
+          {
+            "id": "N0704",
+            "label": "深色硬木",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "材料",
+        "family": "枝条",
+        "terms": [
+          "树枝",
+          "枝条",
+          "木枝",
+          "柴枝",
+          "枯枝",
+          "柴薪",
+          "柴火"
+        ],
+        "variants": [
+          {
+            "id": "N1251",
+            "label": "分叉树枝",
+            "tier": 0
+          },
+          {
+            "id": "N1258",
+            "label": "细枝束",
+            "tier": 1
+          },
+          {
+            "id": "N1156",
+            "label": "粗枝束",
+            "tier": 2
+          }
+        ]
+      },
+      {
+        "category": "材料",
+        "family": "板材",
+        "terms": [
+          "木板",
+          "板材",
+          "木条",
+          "板料"
+        ],
+        "variants": [
+          {
+            "id": "N1235",
+            "label": "粗木板",
+            "tier": 0
+          },
+          {
+            "id": "N1236",
+            "label": "平整木板",
+            "tier": 1
+          },
+          {
+            "id": "N1207",
+            "label": "叠放木板",
             "tier": 2
           }
         ]

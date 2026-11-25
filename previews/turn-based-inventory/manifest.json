@@ -574,6 +574,72 @@
     "bag-icons/N1260.webp": {
       "bytes": 18374,
       "sha256": "9e9e62c3e1d066b146973a0bb8cc2e882173eecb673212aa3fcd903a04804dce"
+    },
+    "bag-icons/N0170.webp": {
+      "bytes": 13292,
+      "sha256": "ada60fc01627782bc20b79b363ab4865f0aa1d38b6858d91094305343f929a7f"
+    },
+    "bag-icons/D0033.webp": {
+      "bytes": 10358,
+      "sha256": "8e6ee44c236096d921467abbc4ebccb4a2c3bb521fd8ee524211865aadea2717"
+    },
+    "bag-icons/I24.webp": {
+      "bytes": 8392,
+      "sha256": "ef60d3df15d78475d22de769a915660e5cd6099d6e1093845a2a277f2e0728ef"
+    },
+    "bag-icons/D0012.webp": {
+      "bytes": 13250,
+      "sha256": "9255d9466796d0948f1c339e3f021b6d3b2b4e13c3c30165dabe3145f24f90ae"
+    },
+    "bag-icons/D0035.webp": {
+      "bytes": 11974,
+      "sha256": "2c800794674fd522db5ddfcea914c228d764833ea09988832da34ff80ea8fc78"
+    },
+    "bag-icons/N0200.webp": {
+      "bytes": 10088,
+      "sha256": "900ecca9bd7a6071d315ac2895eceb19543f2b758914f43a7d7debfd96dcac21"
+    },
+    "bag-icons/N0171.webp": {
+      "bytes": 10118,
+      "sha256": "2536343a70eb1f0bffafa9f757d0753a9a3196f5d26b41d6d03f935094a4221c"
+    },
+    "bag-icons/N0199.webp": {
+      "bytes": 13506,
+      "sha256": "140c4aa42abafd15c936a7e2d02943e8ebf4f743345246a2ba51418063d57966"
+    },
+    "bag-icons/N0191.webp": {
+      "bytes": 10652,
+      "sha256": "e6a0f74a182836bbcd80df949ed285a2ec9a0e640f9b36f909101351c6c1a18d"
+    },
+    "bag-icons/N0168.webp": {
+      "bytes": 9230,
+      "sha256": "432a01bbce4ab9796e9b0a83c056fb49832805c2a869d7af233132c8c3f28044"
+    },
+    "bag-icons/N0193.webp": {
+      "bytes": 8102,
+      "sha256": "37b0964d34b3e88432dac3b7d4270be5f1aeca7063d34be25e75467a71640ecc"
+    },
+    "bag-icons/N0194.webp": {
+      "bytes": 8958,
+      "sha256": "3db54225ddd4e3b600f230c781e91756e3e58ee29b56611e28657a7d3d6df03b"
+    }
+  },
+  "itemCatalog": {
+    "食品": {
+      "蒸包": "bag-icons/N0170.webp",
+      "烧鸡": "bag-icons/D0033.webp",
+      "什锦糕点": "bag-icons/I24.webp",
+      "薄饼": "bag-icons/D0012.webp",
+      "橘子": "bag-icons/D0035.webp",
+      "切片肉食": "bag-icons/N0200.webp"
+    },
+    "药品": {
+      "纸包棕色药散": "bag-icons/N0171.webp",
+      "木盒药丸": "bag-icons/N0199.webp",
+      "白瓷瓶药粉": "bag-icons/N0191.webp",
+      "青花药瓶": "bag-icons/N0168.webp",
+      "系签白瓷药瓶": "bag-icons/N0193.webp",
+      "红陶药罐": "bag-icons/N0194.webp"
     }
   }
 }

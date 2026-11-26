@@ -1,7 +1,7 @@
 {
   "format": "dlh-runtime-v1",
-  "version": "1.0",
-  "sequence": 150,
+  "version": "1.1",
+  "sequence": 155,
   "loaderApi": 1,
   "cardContract": "dlh-yanyun-1-worldbook-ten-shadows-v2",
   "saveContract": "rpg42-material-fulljson-v1",
@@ -10,40 +10,46 @@
   "files": [
     {
       "id": "schema",
-      "path": "releases/1.0/scripts/schema-r150.js",
-      "bytes": 1704899,
-      "sha256": "079806107a43ad97b8caab259a55c8de14cce34d9e5d20ce414b0eefd95c4f90"
+      "path": "releases/1.1/scripts/schema-r155.js",
+      "bytes": 1717377,
+      "sha256": "cb8085e7af65bfca4285518e7541591c8ddea0ee4337036dc150d2848091c354"
     },
     {
       "id": "mvu-output",
-      "path": "releases/1.0/scripts/mvu-output-r54.js",
+      "path": "releases/1.1/scripts/mvu-output-r155.js",
       "bytes": 9239,
       "sha256": "83a1ea208a67defdf9bb5f13bc870bbfaded8b366e59d00dffc61c0f97d14d2f"
     },
     {
       "id": "snapshot-owner",
-      "path": "releases/1.0/scripts/snapshot-owner-r54.js",
+      "path": "releases/1.1/scripts/snapshot-owner-r155.js",
       "bytes": 2906,
       "sha256": "0fd683918d359c5929ee9295cbccf303b97604f07f59db055016f39eeac7931e"
     },
     {
       "id": "npc-growth",
-      "path": "releases/1.0/scripts/npc-growth-r54.js",
+      "path": "releases/1.1/scripts/npc-growth-r155.js",
       "bytes": 5768,
       "sha256": "839fc4cbbeb0d886d28d45392d053b32f376e7fa1b9a88f69bce262a9036e1ab"
     },
     {
       "id": "prompt-budget",
-      "path": "releases/1.0/scripts/prompt-budget-r54.js",
+      "path": "releases/1.1/scripts/prompt-budget-r155.js",
       "bytes": 80668,
       "sha256": "a7b2af7ae5747f66ed2e0772c9c941316b86dd53e7029528858199778d6dc9c8"
     },
     {
       "id": "hud",
-      "path": "releases/1.0/scripts/hud-r150.js",
-      "bytes": 7700283,
-      "sha256": "38338b2aab1ddbe9af1198fd5b7ee52549dd4adec3a313767fc3eaf854e17b0c"
+      "path": "releases/1.1/scripts/hud-r155.js",
+      "bytes": 7717868,
+      "sha256": "70f5b409b75a15ecbf40511f9d53dbd610d8210f2b1810cd6bd3c574c672cb64"
     }
   ],
-  "worldbookRevision": "f729c736d9daf3e1133c4e73fad2313a8f15fb54ad048bcaa5d5349aff70f770"
+  "worldbookRevision": "91debaa7cae208f82638bdd53b31bee8fa8257dcb1babed33f54811bc3cd6c5e",
+  "worldbook": {
+    "path": "releases/1.1/worldbook/patch.json",
+    "from": "f729c736d9daf3e1133c4e73fad2313a8f15fb54ad048bcaa5d5349aff70f770",
+    "bytes": 39492,
+    "sha256": "4b5b174ead9404accaa42cf16bd13f8dd4125c2ada817b8e16f2411153c81737"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "format": "dlh-runtime-v1",
   "version": "1.1",
-  "sequence": 163,
+  "sequence": 164,
   "loaderApi": 1,
   "cardContract": "dlh-yanyun-1-worldbook-ten-shadows-v2",
   "saveContract": "rpg42-material-fulljson-v1",
@@ -10,9 +10,9 @@
   "files": [
     {
       "id": "schema",
-      "path": "releases/1.1/scripts/schema-r163.js",
-      "bytes": 1718592,
-      "sha256": "e4eb864af615231335cce3a3e524b414184d9abd99b1a5b2f613e3a3d0710f8d"
+      "path": "releases/1.1/scripts/schema-r164.js",
+      "bytes": 1718735,
+      "sha256": "4b682e0c454255adc8e21a0ddb798af2de64e35c3b0d95e5b82e0288996ea1d8"
     },
     {
       "id": "mvu-output",
@@ -40,9 +40,9 @@
     },
     {
       "id": "hud",
-      "path": "releases/1.1/scripts/hud-r163.js",
-      "bytes": 7726596,
-      "sha256": "c00f7a2f6e2e91511ea028c42a431775b60e39916ce7252600be4867f7976304"
+      "path": "releases/1.1/scripts/hud-r164.js",
+      "bytes": 7726917,
+      "sha256": "466f05e14e3985b0b10a662f2ebaad37cfb108e1065bedffe1469254801c7a32"
     }
   ],
   "worldbookRevision": "89d5b7a9dac1d0aa8c2d52ddbeafdbc5746b01482a022bc30530ef268a51766f",

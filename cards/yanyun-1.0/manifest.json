@@ -1,12 +1,12 @@
 {
   "format": "dlh-runtime-v1",
   "version": "1.15",
-  "sequence": 173,
+  "sequence": 175,
   "loaderApi": 1,
   "cardContract": "dlh-yanyun-1-worldbook-ten-shadows-v2",
   "saveContract": "rpg42-material-fulljson-v1",
   "requiresCardUpdate": false,
-  "notes": "",
+  "notes": "多条剧情线可分别接入、暂搁与恢复；世界书 EJS 模板适配原版 Gemini 酒馆助手插件。",
   "files": [
     {
       "id": "schema",
@@ -40,18 +40,12 @@
     },
     {
       "id": "hud",
-      "path": "releases/1.15/scripts/hud-r172.js",
-      "bytes": 7736901,
-      "sha256": "9a54f7d5f59301a14cbe63af04930fd312621c36484e4c6c6a9c61c7e2f09c3b"
+      "path": "releases/1.15/scripts/hud-r174.js",
+      "bytes": 7740550,
+      "sha256": "99770e7f3bb267af7e39c8e6f82134b3172a474a065bd841dd7ffb60ac3b593d"
     }
   ],
-  "worldbookRevision": "e36fc42e20340eb7bf6258743d7dc99c74bef95a6a228b62f49fd79bb7a8534a",
-  "worldbook": {
-    "path": "releases/1.15/worldbook/patch.json",
-    "from": "b64a9accfd4ae10116915aa6bbadcaf9b52d4abf13d83d560c62cf79978c6462",
-    "bytes": 84508,
-    "sha256": "71f0e51c4cd31f104f420ac796a5c8f0a90a7c5616222c41cc834536a6a6c7f4"
-  },
+  "worldbookRevision": "3177eb11da89c681165c70050eb8d9473ed968fb669bbde282fb62aa289beab3",
   "worldbookHistory": [
     {
       "path": "worldbook/history/4b5b174ead9404accaa42cf16bd13f8dd4125c2ada817b8e16f2411153c81737.json",
@@ -94,6 +88,26 @@
       "bytes": 84508,
       "sha256": "71f0e51c4cd31f104f420ac796a5c8f0a90a7c5616222c41cc834536a6a6c7f4",
       "to": "e36fc42e20340eb7bf6258743d7dc99c74bef95a6a228b62f49fd79bb7a8534a"
+    },
+    {
+      "path": "worldbook/history/f7eac5965b658782286137e1cceace709cfb668a05899bf0d87a08e09b03393d.json",
+      "from": "e36fc42e20340eb7bf6258743d7dc99c74bef95a6a228b62f49fd79bb7a8534a",
+      "sha256": "f7eac5965b658782286137e1cceace709cfb668a05899bf0d87a08e09b03393d",
+      "bytes": 3115209,
+      "to": "3177eb11da89c681165c70050eb8d9473ed968fb669bbde282fb62aa289beab3"
+    },
+    {
+      "path": "worldbook/history/8a4b7561c747a1b0bdf41b511262011de1d245bb6d4063932aeaa8c882981390.json",
+      "from": "fd56be7a939c72be2f727129e3fd3970f0cb71b944d34ba5ede6ddc30f53bebd",
+      "bytes": 3101369,
+      "sha256": "8a4b7561c747a1b0bdf41b511262011de1d245bb6d4063932aeaa8c882981390",
+      "to": "3177eb11da89c681165c70050eb8d9473ed968fb669bbde282fb62aa289beab3"
     }
-  ]
+  ],
+  "worldbook": {
+    "path": "releases/1.15/worldbook/patch.json",
+    "from": "e36fc42e20340eb7bf6258743d7dc99c74bef95a6a228b62f49fd79bb7a8534a",
+    "sha256": "f7eac5965b658782286137e1cceace709cfb668a05899bf0d87a08e09b03393d",
+    "bytes": 3115209
+  }
 }

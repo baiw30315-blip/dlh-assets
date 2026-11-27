@@ -1,7 +1,7 @@
 {
   "format": "dlh-runtime-v1",
   "version": "1.15",
-  "sequence": 172,
+  "sequence": 173,
   "loaderApi": 1,
   "cardContract": "dlh-yanyun-1-worldbook-ten-shadows-v2",
   "saveContract": "rpg42-material-fulljson-v1",
@@ -51,5 +51,49 @@
     "from": "b64a9accfd4ae10116915aa6bbadcaf9b52d4abf13d83d560c62cf79978c6462",
     "bytes": 84508,
     "sha256": "71f0e51c4cd31f104f420ac796a5c8f0a90a7c5616222c41cc834536a6a6c7f4"
-  }
+  },
+  "worldbookHistory": [
+    {
+      "path": "worldbook/history/4b5b174ead9404accaa42cf16bd13f8dd4125c2ada817b8e16f2411153c81737.json",
+      "from": "f729c736d9daf3e1133c4e73fad2313a8f15fb54ad048bcaa5d5349aff70f770",
+      "bytes": 39492,
+      "sha256": "4b5b174ead9404accaa42cf16bd13f8dd4125c2ada817b8e16f2411153c81737",
+      "to": "91debaa7cae208f82638bdd53b31bee8fa8257dcb1babed33f54811bc3cd6c5e"
+    },
+    {
+      "path": "worldbook/history/1c04329a60bff11f8c754cbb275c7c110c5aad83f53039a483b20e3371f2b707.json",
+      "from": "91debaa7cae208f82638bdd53b31bee8fa8257dcb1babed33f54811bc3cd6c5e",
+      "bytes": 2005,
+      "sha256": "1c04329a60bff11f8c754cbb275c7c110c5aad83f53039a483b20e3371f2b707",
+      "to": "b74bae67ab933feb443b2af630c4b96edbabcdaa5ddab0bb842b5cdaa49c85ff"
+    },
+    {
+      "path": "worldbook/history/c598b336f4f07829d6a70706081193b4b2307b2c9b3736d611e696ea19594ec6.json",
+      "from": "b74bae67ab933feb443b2af630c4b96edbabcdaa5ddab0bb842b5cdaa49c85ff",
+      "bytes": 91346,
+      "sha256": "c598b336f4f07829d6a70706081193b4b2307b2c9b3736d611e696ea19594ec6",
+      "to": "89d5b7a9dac1d0aa8c2d52ddbeafdbc5746b01482a022bc30530ef268a51766f"
+    },
+    {
+      "path": "worldbook/history/9d720652c28d5a2d3bfa38ebe088e772db37478be4425c7e887cba3b635fe81e.json",
+      "from": "89d5b7a9dac1d0aa8c2d52ddbeafdbc5746b01482a022bc30530ef268a51766f",
+      "bytes": 82738,
+      "sha256": "9d720652c28d5a2d3bfa38ebe088e772db37478be4425c7e887cba3b635fe81e",
+      "to": "049661d3853aa8e69a34f106b529ff6a95e138e95c1288fa32c0fd8c3bb27d08"
+    },
+    {
+      "path": "worldbook/history/d840914e96e523ea85a373157812592371434a6202b15cc5f6d68a88979ad4dd.json",
+      "from": "049661d3853aa8e69a34f106b529ff6a95e138e95c1288fa32c0fd8c3bb27d08",
+      "bytes": 82885,
+      "sha256": "d840914e96e523ea85a373157812592371434a6202b15cc5f6d68a88979ad4dd",
+      "to": "b64a9accfd4ae10116915aa6bbadcaf9b52d4abf13d83d560c62cf79978c6462"
+    },
+    {
+      "path": "worldbook/history/71f0e51c4cd31f104f420ac796a5c8f0a90a7c5616222c41cc834536a6a6c7f4.json",
+      "from": "b64a9accfd4ae10116915aa6bbadcaf9b52d4abf13d83d560c62cf79978c6462",
+      "bytes": 84508,
+      "sha256": "71f0e51c4cd31f104f420ac796a5c8f0a90a7c5616222c41cc834536a6a6c7f4",
+      "to": "e36fc42e20340eb7bf6258743d7dc99c74bef95a6a228b62f49fd79bb7a8534a"
+    }
+  ]
 }

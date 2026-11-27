@@ -1,7 +1,7 @@
 {
   "format": "dlh-runtime-v1",
-  "version": "1.1",
-  "sequence": 169,
+  "version": "1.15",
+  "sequence": 170,
   "loaderApi": 1,
   "cardContract": "dlh-yanyun-1-worldbook-ten-shadows-v2",
   "saveContract": "rpg42-material-fulljson-v1",
@@ -10,44 +10,44 @@
   "files": [
     {
       "id": "schema",
-      "path": "releases/1.1/scripts/schema-r169.js",
+      "path": "releases/1.15/scripts/schema-r170.js",
       "bytes": 1721092,
       "sha256": "a31b467957ca2f51514a0ed7beb23d970a6fb41bc3c6bb36f91505db0efb9017"
     },
     {
       "id": "mvu-output",
-      "path": "releases/1.1/scripts/mvu-output-r155.js",
+      "path": "releases/1.15/scripts/mvu-output-r170.js",
       "bytes": 9239,
       "sha256": "83a1ea208a67defdf9bb5f13bc870bbfaded8b366e59d00dffc61c0f97d14d2f"
     },
     {
       "id": "snapshot-owner",
-      "path": "releases/1.1/scripts/snapshot-owner-r155.js",
+      "path": "releases/1.15/scripts/snapshot-owner-r170.js",
       "bytes": 2906,
       "sha256": "0fd683918d359c5929ee9295cbccf303b97604f07f59db055016f39eeac7931e"
     },
     {
       "id": "npc-growth",
-      "path": "releases/1.1/scripts/npc-growth-r155.js",
+      "path": "releases/1.15/scripts/npc-growth-r170.js",
       "bytes": 5768,
       "sha256": "839fc4cbbeb0d886d28d45392d053b32f376e7fa1b9a88f69bce262a9036e1ab"
     },
     {
       "id": "prompt-budget",
-      "path": "releases/1.1/scripts/prompt-budget-r155.js",
+      "path": "releases/1.15/scripts/prompt-budget-r170.js",
       "bytes": 80668,
       "sha256": "a7b2af7ae5747f66ed2e0772c9c941316b86dd53e7029528858199778d6dc9c8"
     },
     {
       "id": "hud",
-      "path": "releases/1.1/scripts/hud-r169b.js",
+      "path": "releases/1.15/scripts/hud-r170.js",
       "bytes": 7732508,
       "sha256": "e6c51b92c5d773c4bc5e4655a88292a40d54fa8c6e9f84277bb021ac25a1208d"
     }
   ],
   "worldbookRevision": "b64a9accfd4ae10116915aa6bbadcaf9b52d4abf13d83d560c62cf79978c6462",
   "worldbook": {
-    "path": "releases/1.1/worldbook/patch.json",
+    "path": "releases/1.15/worldbook/patch.json",
     "from": "049661d3853aa8e69a34f106b529ff6a95e138e95c1288fa32c0fd8c3bb27d08",
     "bytes": 82885,
     "sha256": "d840914e96e523ea85a373157812592371434a6202b15cc5f6d68a88979ad4dd"

@@ -1,0 +1,415 @@
+大凉烟云传 1.15 · 武学 DLC 共创包
+
+把这个文件发给你的 Agent，然后用自己的话说你想做什么。比如「我想做一门葬心墓的奇门，先上印，打几招之后再引爆。先陪我聊聊怎么玩。」你也可以直接发一段设定、一个招名，或一条想实现的战斗机制。
+
+给 Agent
+
+你和玩家一起设计一门能放进《大凉烟云传》的武学。玩家决定它的武理、打法和取舍。先把点子聊成玩家能想象自己在战斗里使用的东西，玩家说要落地时，再查版本、写定义或改源码。
+
+一、先陪玩家把玩法聊出来
+
+1. 用一两句话复述你听到的点子。如果缺关键信息，每轮最多问两个会改变打法的问题。比如「你想让玩家攒着印等时机，还是频繁引爆？」如果玩家已说清，就顺着他的想法演一遍。
+2. 用两三回合举例，写清玩家做了什么、对手看到什么、效果何时兑现。也可以拿一次落空、净化或换目标举例，看看玩家想不想让它失败。玩家说想发散时，给至多两个打法，讲清两种各自在什么时机值得出手。
+3. 沿用玩家已定下的名字、品级、武理和核心效果。先商量出招节奏、联动、代价和可反制的地方。数值等打法定了再谈。调整品级、移除机制或改动玩家定下的数值时，先说明会改变什么，再等玩家决定。
+4. 玩家只想讨论时，把回答留在当前问题上。设计逐渐定型后，可以用几行记下已定事项和下一个待定点。玩家要求整理时，再给他一份完整武学稿。
+
+二、定稿后，从正式 1.15 导出本门制作要求
+
+打开「武墓 → 武学 DLC → 导出给创作者的制作要求」，填写商定的名称、类型、品级和武理，把导出的全文发给 Agent。名称要避开卡内已有的内置武学。若改了类型、品级或核心武理，先重新导出，再继续制作。
+
+给 Agent：以本次导出的要求为准，按其指定格式写 entries 里的 definition。保留外层的 name、type、grade、description。字段、枚举、可用机制、费用和配值约束以当前卡的要求和预检为准。别把照潮印的奇门字段、倍率或内部引用照搬给其他门类。缺少导出要求时，先和玩家聊武理，等拿到要求再写可导入文件。
+
+三、选择交付格式
+
+新作武学走「武墓 → 武学 DLC」。交付 UTF-8 JSON，外层 format 为 dlh-art-dlc-v1，version 为 1，每包 1～12 门。粘贴 JSON 或选择文件预检，核对每招费用、目标、解锁和功法效果，确认符合原稿再点「收录到武墓」。要让当前角色学会，再点「本档习得」。
+
+已有完整藏录走「武墓 → 导入」，使用 dlh-wumu-library-v1。这个入口用于交换已经配好数值的完整定义。角色已习得同名、同类型、同品级武学时，可在非战斗状态载入匹配的定义。收录和本档习得是两个步骤。
+
+【当前机制可以组合】
+
+按选定的入口输出一份完整 JSON，另用几行说明玩家怎么试招。JSON 正文从 { 开始到 } 结束，去掉 Markdown 围栏、样例边界标记、注释和尾逗号。每门的外层身份和 profile 同步更新。使用已有武学名之前先查武墓，挑一个独立名称能避免和固定内置或角色已学武学撞名。
+
+把招式和效果接到实际执行的触发上。明确哪招、谁施放、目标是谁、命中或付费要求、消耗、持续时间、叠层或刷新、净化和退场后的处理。沿用当前品级规则。编译和导入后，查可用招式和功法效果，再跑至少一次生效和一次不应生效的实战。涉及跨回合或跨楼状态时，再核对存档载入、回退或重抽后的结果。交付时写清做过哪些验证、还缺哪一步。
+
+玩家把首条报错、预检结果或功法效果贴回来后，先对照身份、引用、触发和预算，指出具体是哪门、哪招、哪个字段。预检列出的实际招式费用和「功法效果」比武理描述更能说明实战表现。若改法会改变体验，把变化交给玩家选。Agent 只有文本时，把修改稿标为「待卡内验证」。
+
+【玩家要做引擎还缺的机制】
+
+继续和玩家设计这条机制，保留它的核心玩法。比如玩家想把甲身上的术印转移给乙，先定什么动作触发转移，甲的印在何时移除，乙是否保留剩余回合与伤害快照，遇到乙已有同类印、免疫或离场时如何结算。再查当前引擎有没有迁移这个状态的执行入口。
+
+整理成一份能实现的机制提案，写清玩家体验、触发与结算顺序、状态由谁持有、消耗及失败分支、存档与清理、界面如何显示，再附一个生效例和一个边界例。玩家要求写进项目且有当前源码时，查战斗事件、状态、结算和武学注册的接入点，接好后跑实际回合。新增配置字段也要有对应的运行逻辑和校验。只有提案时，交付状态写「机制提案」。
+
+四、交付时给玩家什么
+
+按玩家当前想要的进度交付。讨论阶段给出可接着聊的打法和回合例子。定稿给出名称、类型、品级、武理、招式、联动和玩家能看到的效果。要导入时附对应版本的文件、入口和验证结果。要新增机制时附提案，或已实现的代码与验证结果。
+
+收到文件后，直接接着玩家的点子聊。如果玩家还没说点子，就问他想做哪门武学，或最想让它在实战中做成哪一件事。
+
+
+五、照潮印 · 正式 1.15 双入口样例
+
+这两份文件演示同一门先天奇门。新做武学看样例 B；交流完整藏录看样例 A。复制对应 BEGIN 和 END 标记之间的 JSON 即可。试招时，先用「叩潮」命中挂印，再用「回潮掌」命中同一目标，观察提前引爆。再试一次改打另一人，或等原印被净化，用来核对同目标条件。
+
+样例 B · 武墓 → 武学 DLC → 预检
+
+BEGIN DLC JSON
+{
+  "format": "dlh-art-dlc-v1",
+  "version": 1,
+  "title": "照潮印",
+  "entries": [
+    {
+      "name": "照潮印",
+      "type": "奇门",
+      "grade": "先天",
+      "description": "以外劲扣下潮印。初招挂印后每回合结算，回潮掌命中同一目标可以提前引爆。",
+      "definition": {
+        "format": "art-package-v1",
+        "version": 1,
+        "balanceVersion": 3,
+        "ruleset": "dictionary-v0.4",
+        "damageModel": "dual-attack-v1",
+        "profile": {
+          "name": "照潮印",
+          "type": "奇门",
+          "grade": "先天",
+          "description": "以外劲扣下潮印。初招挂印后每回合结算，回潮掌命中同一目标可以提前引爆。",
+          "tags": [
+            "刚"
+          ]
+        },
+        "moves": [
+          {
+            "id": "mark",
+            "name": "叩潮",
+            "tier": "皮毛",
+            "kind": "attack",
+            "channel": "external",
+            "hpRatio": 5.53,
+            "cost": 17,
+            "stamina": 10,
+            "cooldown": 4
+          },
+          {
+            "id": "return",
+            "name": "回潮掌",
+            "tier": "皮毛",
+            "kind": "attack",
+            "channel": "external",
+            "hpRatio": 0.5,
+            "cost": 10,
+            "stamina": 10
+          }
+        ],
+        "mechanisms": [
+          {
+            "id": "window",
+            "name": "照潮",
+            "tier": "皮毛",
+            "trigger": "qimen",
+            "moves": [
+              "mark"
+            ],
+            "cooldown": 4,
+            "qimen": {
+              "kind": "preparation",
+              "trigger": "afterHit",
+              "prepare": {
+                "type": "move",
+                "move": "mark"
+              },
+              "effect": {
+                "kind": "windowDamage",
+                "mode": "periodic",
+                "basis": "attack",
+                "channel": "external",
+                "turns": 3,
+                "detonateMove": "return"
+              }
+            }
+          }
+        ],
+        "allocation": {
+          "primary": "window",
+          "weights": {
+            "window": 5
+          }
+        }
+      }
+    }
+  ]
+}
+END DLC JSON
+
+样例 A · 武墓 → 导入（完整藏录）
+
+BEGIN WUMU JSON
+{
+  "format": "dlh-wumu-library-v1",
+  "version": 1,
+  "entries": [
+    {
+      "kind": "武学",
+      "title": "照潮印",
+      "source": {
+        "name": "照潮印",
+        "info": {
+          "类型": "奇门",
+          "评级": "先天",
+          "特殊效果": "以外劲扣下潮印。初招挂印后每回合结算，回潮掌命中同一目标可以提前引爆。"
+        }
+      },
+      "definition": {
+        "format": "art-package-v1",
+        "version": 1,
+        "balanceVersion": 3,
+        "ruleset": "dictionary-v0.4",
+        "damageModel": "dual-attack-v1",
+        "profile": {
+          "name": "照潮印",
+          "type": "奇门",
+          "grade": "先天",
+          "description": "以外劲扣下潮印。初招挂印后每回合结算，回潮掌命中同一目标可以提前引爆。",
+          "tags": [
+            "刚"
+          ]
+        },
+        "moves": [
+          {
+            "id": "mark",
+            "name": "叩潮",
+            "tier": "皮毛",
+            "kind": "attack",
+            "channel": "external",
+            "hpRatio": 13.5,
+            "cost": 54,
+            "stamina": 10,
+            "cooldown": 4,
+            "qiRatio": 0,
+            "charge": 0,
+            "range": false,
+            "reaction": false,
+            "mustHit": false,
+            "defPen": 0,
+            "lifesteal": 0,
+            "segments": [],
+            "element": "",
+            "description": "",
+            "requirements": {
+              "arts": [],
+              "statuses": [],
+              "resources": [],
+              "affinities": []
+            },
+            "replaces": "",
+            "chargeProtection": "",
+            "effects": [],
+            "resourceCosts": [],
+            "theme": ""
+          },
+          {
+            "id": "return",
+            "name": "回潮掌",
+            "tier": "皮毛",
+            "kind": "attack",
+            "channel": "external",
+            "hpRatio": 7.25,
+            "cost": 22,
+            "stamina": 6,
+            "qiRatio": 0,
+            "cooldown": 1,
+            "charge": 0,
+            "range": false,
+            "reaction": false,
+            "mustHit": false,
+            "defPen": 0,
+            "lifesteal": 0,
+            "segments": [],
+            "element": "",
+            "description": "",
+            "requirements": {
+              "arts": [],
+              "statuses": [],
+              "resources": [],
+              "affinities": []
+            },
+            "replaces": "",
+            "chargeProtection": "",
+            "effects": [],
+            "resourceCosts": [],
+            "theme": ""
+          }
+        ],
+        "mechanisms": [
+          {
+            "id": "window",
+            "name": "照潮",
+            "tier": "皮毛",
+            "trigger": "qimen",
+            "moves": [
+              "mark"
+            ],
+            "cooldown": 4,
+            "qimen": {
+              "kind": "preparation",
+              "trigger": "afterHit",
+              "prepare": {
+                "type": "move",
+                "move": "mark"
+              },
+              "effect": {
+                "kind": "windowDamage",
+                "mode": "periodic",
+                "basis": "attack",
+                "channel": "external",
+                "turns": 3,
+                "detonateMove": "return",
+                "ratio": 0.4
+              },
+              "conditions": {},
+              "cost": {}
+            },
+            "pricingVersion": 4,
+            "effects": [],
+            "resource": ""
+          }
+        ],
+        "statuses": [],
+        "resources": [],
+        "bonuses": [
+          {
+            "slot": 1,
+            "name": "会意率精进",
+            "key": "会意率",
+            "mode": "flat",
+            "value": 3
+          },
+          {
+            "slot": 2,
+            "name": "外功伤害减免精进",
+            "key": "外功伤害减免",
+            "mode": "flat",
+            "value": 5
+          }
+        ],
+        "bonusVersion": 3,
+        "cooldownAllocation": {
+          "version": 1,
+          "moves": [
+            {
+              "id": "mark",
+              "role": "burst",
+              "requested": 4
+            },
+            {
+              "id": "return",
+              "role": "pressure",
+              "requested": 0
+            }
+          ]
+        },
+        "passives": {
+          "数值加成": {},
+          "比例加成": {},
+          "减伤率": 0,
+          "属性增伤": {}
+        },
+        "unsupported": []
+      },
+      "rules": "wumu-captured-v1",
+      "reports": {
+        "数值分配": {
+          "版本": 1,
+          "算法": "qimen-budget-v3",
+          "品级": "先天",
+          "主轴": "window",
+          "预算上限": 80,
+          "目标预算": 76,
+          "保留预算": 0,
+          "已用预算": 23,
+          "未用预算": 57,
+          "原因": [
+            "受现行单项幅度、品级控场与窗口额度或整数计价限制，未凑满90%；未加无关机制、延长封禁或擅自改变资源代价"
+          ],
+          "词条": [
+            {
+              "id": "window",
+              "名称": "照潮",
+              "触发": "windowDamage",
+              "权重": 5,
+              "计价": 23,
+              "托管字段": {
+                "ratio": 0.4
+              },
+              "依据": "沿用现行奇门品级、单项额度与同源计价；真实资格、准备、付款、期限和消费不变",
+              "提示": [
+                "攻击快照与已造成伤害两种基数保留；累计上限不代替真实收集，来源、净化、到期及读档结算不变"
+              ]
+            }
+          ]
+        },
+        "招式分配": {
+          "版本": 1,
+          "算法": "attack-budget-v4",
+          "品级": "先天",
+          "说明": [
+            "本门没有单独指定basic用途；通用普攻仍可使用。需要低耗招时应在设计中指定basic，程序不擅自新增招式或取消蓄势"
+          ],
+          "招式": [
+            {
+              "id": "mark",
+              "用途": "burst",
+              "权重": 3,
+              "固定零内力": false,
+              "调息设计": 4,
+              "调息下限": 3,
+              "整招倍率": 13.5,
+              "等效倍率": 13.5,
+              "内力": 54,
+              "耐力": 10,
+              "蓄势": 0,
+              "调息": 4,
+              "路径": [
+                {
+                  "招式": [
+                    "mark"
+                  ],
+                  "全链倍率": 13.5,
+                  "占用行动": 1,
+                  "内力": 54,
+                  "耐力": 10
+                }
+              ]
+            },
+            {
+              "id": "return",
+              "用途": "pressure",
+              "权重": 3,
+              "固定零内力": false,
+              "调息设计": 0,
+              "调息下限": 1,
+              "整招倍率": 7.25,
+              "等效倍率": 7.25,
+              "内力": 22,
+              "耐力": 6,
+              "蓄势": 0,
+              "调息": 1,
+              "路径": [
+                {
+                  "招式": [
+                    "return"
+                  ],
+                  "全链倍率": 7.25,
+                  "占用行动": 1,
+                  "内力": 22,
+                  "耐力": 6
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
+END WUMU JSON

@@ -40,7 +40,7 @@
     },
     {
       "id": "hud",
-      "path": "releases/1.1/scripts/hud-r169.js",
+      "path": "releases/1.1/scripts/hud-r169b.js",
       "bytes": 7732508,
       "sha256": "e6c51b92c5d773c4bc5e4655a88292a40d54fa8c6e9f84277bb021ac25a1208d"
     }

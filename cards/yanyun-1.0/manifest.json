@@ -1,7 +1,7 @@
 {
   "format": "dlh-runtime-v1",
   "version": "1.15",
-  "sequence": 170,
+  "sequence": 171,
   "loaderApi": 1,
   "cardContract": "dlh-yanyun-1-worldbook-ten-shadows-v2",
   "saveContract": "rpg42-material-fulljson-v1",
@@ -10,15 +10,15 @@
   "files": [
     {
       "id": "schema",
-      "path": "releases/1.15/scripts/schema-r170.js",
-      "bytes": 1721092,
-      "sha256": "a31b467957ca2f51514a0ed7beb23d970a6fb41bc3c6bb36f91505db0efb9017"
+      "path": "releases/1.15/scripts/schema-r171.js",
+      "bytes": 1725020,
+      "sha256": "0537b3edf57728eba3d731dbbcbbcb33236b397e0b519a4a1ab48cceff7f67f0"
     },
     {
       "id": "mvu-output",
-      "path": "releases/1.15/scripts/mvu-output-r170.js",
-      "bytes": 9239,
-      "sha256": "83a1ea208a67defdf9bb5f13bc870bbfaded8b366e59d00dffc61c0f97d14d2f"
+      "path": "releases/1.15/scripts/mvu-output-r171.js",
+      "bytes": 12986,
+      "sha256": "1c0b0802e1242c8e12e9243ace6126a35f58f7a30bbca6d1c5e5b61188251007"
     },
     {
       "id": "snapshot-owner",
@@ -40,16 +40,16 @@
     },
     {
       "id": "hud",
-      "path": "releases/1.15/scripts/hud-r170.js",
-      "bytes": 7732508,
-      "sha256": "e6c51b92c5d773c4bc5e4655a88292a40d54fa8c6e9f84277bb021ac25a1208d"
+      "path": "releases/1.15/scripts/hud-r171.js",
+      "bytes": 7734136,
+      "sha256": "17018830d84f6f5a8866aae0931e46123ad570bfb4f9423e01853dc299075518"
     }
   ],
-  "worldbookRevision": "b64a9accfd4ae10116915aa6bbadcaf9b52d4abf13d83d560c62cf79978c6462",
+  "worldbookRevision": "e36fc42e20340eb7bf6258743d7dc99c74bef95a6a228b62f49fd79bb7a8534a",
   "worldbook": {
     "path": "releases/1.15/worldbook/patch.json",
-    "from": "049661d3853aa8e69a34f106b529ff6a95e138e95c1288fa32c0fd8c3bb27d08",
-    "bytes": 82885,
-    "sha256": "d840914e96e523ea85a373157812592371434a6202b15cc5f6d68a88979ad4dd"
+    "from": "b64a9accfd4ae10116915aa6bbadcaf9b52d4abf13d83d560c62cf79978c6462",
+    "bytes": 84508,
+    "sha256": "71f0e51c4cd31f104f420ac796a5c8f0a90a7c5616222c41cc834536a6a6c7f4"
   }
 }
